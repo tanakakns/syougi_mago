@@ -1,0 +1,22 @@
+{
+  "name": "syougi_mago",
+  "version": "0.0.0",
+  "authors": [
+    "tanakakns <tanakakns@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "1.11.2",
+    "bootstrap": "3.3.4"
+  }
+}
