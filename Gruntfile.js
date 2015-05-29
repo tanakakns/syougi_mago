@@ -68,6 +68,15 @@ module.exports = function(grunt) {
       }
     },
     
+    // compassタスク（grunt-contrib-compass）の設定
+    compass: {
+      compile: {
+        options: {
+          config: 'config.rb'
+        }
+      }
+    },
+    
     // connectタスク（grunt-contrib-connect）の設定
     connect: {
       local: {
@@ -88,10 +97,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-connect');
 
   // gruntコマンドのデフォルトタスクにcleanを追加
   // grunt.registerTask(<タスク名>, [<タスクの説明>,] <タスク内容>);
   // grunt.registerTask('default', ['clean']);
-  grunt.registerTask('build', ['clean', 'copy', 'jade', 'sass']);
+  grunt.registerTask('build', ['clean', 'copy', 'jade', 'compass']);
 };

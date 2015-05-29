@@ -17,6 +17,7 @@
   ],
   "devDependencies": {
     "jquery": "1.11.2",
-    "bootstrap": "3.3.4"
+    "bootstrap": "3.3.4",
+    "compass": "~0.5.4"
   }
 }

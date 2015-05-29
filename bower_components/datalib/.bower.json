@@ -1,0 +1,39 @@
+{
+  "name": "datalib",
+  "main": "datalib.js",
+  "version": "1.1.12",
+  "homepage": "http://github.com/uwdata/datalib.git",
+  "authors": [
+    "UW Interactive Data Lab (http://idl.cs.washington.edu)"
+  ],
+  "description": "JavaScript utilites for loading, summarizing and working with data.",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "data",
+    "table",
+    "statistics",
+    "parse",
+    "csv",
+    "tsv",
+    "json",
+    "utility"
+  ],
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "_release": "1.1.12",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.12",
+    "commit": "da61c7ec92e4055d1cf914088b9daf2621928ceb"
+  },
+  "_source": "https://github.com/uwdata/datalib.git",
+  "_target": "~1.1.12",
+  "_originalSource": "datalib"
+}

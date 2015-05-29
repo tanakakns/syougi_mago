@@ -1,0 +1,45 @@
+{
+  "name": "viscompass",
+  "main": "compass.js",
+  "version": "0.5.4",
+  "homepage": "https://github.com/uwdata/compass",
+  "authors": [
+    "Kanit \"Ham\" Wongsuphasawat <kanitw@gmail.com>",
+    "Interactive Data Lab (http://idl.cs.washington.edu)"
+  ],
+  "description": "Visualization Recommendation Engine",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Visualization",
+    "Vegalite",
+    "Recommendation",
+    "Chart",
+    "Analysis",
+    "Exploration"
+  ],
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vega-lite": "^0.7.1"
+  },
+  "_release": "0.5.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.5.4",
+    "commit": "d2a7f625d6b85402ad1e1eae51f675d3d12c082f"
+  },
+  "_source": "https://github.com/uwdata/compass.git",
+  "_target": "~0.5.4",
+  "_originalSource": "compass",
+  "_direct": true
+}
