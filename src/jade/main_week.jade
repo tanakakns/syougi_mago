@@ -1,0 +1,153 @@
+extends ./templates/template.jade
+
+block content
+  //-  ここからは画像と説明文のテーブル
+  table(align="center" cellpadding="0" cellspacing="0" width="700")
+    tr
+      td(align="left" valign="top" style="PADDING-TOP:10px" width="50%")
+        //-  Weekly詰将棋の画像
+        img(src="assets/img/week/Mbodbl.jpg" align="left" width="121" height="119" border="0" hspace="5")
+        //-  Weekly詰将棋のコメントテーブル
+        table(style="BORDER-BOTTOM: blue 4px solid; LINE-HEIGHT: 120%; MARGIN-TOP: 7px" align="center" cellspacing="0" width="210" cellpadding="0")
+          tr
+            td(bgcolor="blue" style="PADDING-TOP: 2px")
+              p(align="left" style="MARGIN:0 0 0 10px;")
+                font(color="white" size="2")
+                  b= '第７０回　２０１４年１月１６日'
+                //- <img src="http://www.geocities.jp/syougi_mago/TL/text033_19.gif" align="baseline" width="34" height="11" border="0"> -->
+          //-  Weekly詰将棋のコメント
+          tr
+            td(style="PADDING: 3px 3px 3px 5px;")
+              p(align="left" style="LINE-HEIGHT:120%; MARGIN:0 0 0 0;")
+                font(color="blue" size="2")= 'しばらくお休みいただいています。'
+              p(align="left" style="LINE-HEIGHT:120%; MARGIN: 0;")
+                font(color="blue" size="2")
+                  | １手詰は「詰む将棋」と変えて
+                  br
+                  a.kobetu(href="http://www.geocities.jp/kaitou6678/nyumon/n-tumu.html")= '解けてうれしい詰将棋'
+                  | に掲載。
+      td
+        div(style="position: absolute; top: 490px; left: 600px; width:152px; height:112px;")
+          img(src="assets/img/week/efg.gif" align="" width="200" height="150" border="0")
+  //-  画像と説明文のテーブルはここまで
+  br
+  br
+  //-  問題１のテーブル
+  table(align="center" cellpadding="0" cellspacing="0" width="233" bgcolor="lime")
+    tr
+      td
+        p(style="LINE-HEIGHT: 100%; MARGIN: 0 0 0 10px; ")
+          b
+            font(size="2")= '問題１　３手詰'
+      td
+        p(align="left" style="LINE-HEIGHT: 100%; MARGIN: 0 0 0 10px;")
+          b
+            font(size="2")= '問題２　５手詰'
+    tr
+      td(style="PADDING: 2px 2px 2px 2px;")
+        img(src="assets/img/week/mondai13/W70-3.png" align="bottom" width="275" height="251" border="0" alt="３手詰")
+      td(style="PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px")
+        p(style="LINE-HEIGHT: 100%; MARGIN:0 0 0 0;" align="center")
+          img(src="assets/img/week/mondai13/W70-5.png" align="bottom" width="275" height="251" border="0" alt="５手詰")
+  br
+  //-  問題１のテーブルここまで↑
+
+  p(style="LINE-HEIGHT: 100%" align="center")= '◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆　前週までの問題　◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆'
+  br
+  br
+
+  //-  問題のテーブル挿入
+
+  //-  １週間の問題のテーブル
+  table(style="FONT-SIZE: 10pt" cellspacing="0" cellpadding="0" width="700" bgcolor="lime" align="center")
+    tr
+      td(style="LINE-HEIGHT: 150%; PADDING:0 0 0 10px;" bgcolor="blue" height="23" valign="top" width="700" colspan="3" align="left")
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 0;" align="left")
+          font(color="white")= '第６９回　１２/２６'
+    tr
+      td(style="LINE-HEIGHT: 100%" height="29" valign="top" width="233" align="left")
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 60px;" align="left")= '３手詰'
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 60px;" align="left")
+          img(border="0" align="bottom" src="assets/img/week/mondai13/W69-3.png" width="230" height="203" alt="")
+      td(style="LINE-HEIGHT: 100%" height="29" valign="top" width="233" align="left")
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 0;" align="left")= '５手詰'
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 0;" align="left")
+          img(border="0" align="bottom" src="assets/img/week/mondai13/W69-5.png" width="230" height="203" alt="")
+
+  //-  １週間の問題のテーブル
+  table(style="FONT-SIZE: 10pt" cellspacing="0" cellpadding="0" width="700" bgcolor="lime" align="center")
+    tr
+      td(style="LINE-HEIGHT: 150%; PADDING:0 0 0 10px;" bgcolor="blue" height="23" valign="top" width="700" colspan="3" align="left")
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 0;" align="left")
+          font(color="white")= '第６８回　１２/１２'
+    tr
+      td(style="LINE-HEIGHT: 100%" height="29" valign="top" width="233" align="left")
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 60px;" align="left")= '３手詰'
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 60px;" align="left")
+          img(border="0" align="bottom" src="assets/img/week/mondai13/W68-3.png" width="230" height="203" alt="")
+      td(style="LINE-HEIGHT: 100%" height="29" valign="top" width="233" align="left")
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 0;" align="left")= '５手詰'
+        p(style="LINE-HEIGHT: 150%; MARGIN:0 0 0 0;" align="left")
+          img(border="0" align="bottom" src="assets/img/week/mondai13/W68-5.png" width="230" height="203" alt="")
+
+  //-  インラインフレーム　前月までの問題掲載
+  br
+  table(align="center" cellpadding="0" cellspacing="0" width="700" height="25" bgcolor="blue")
+    tr
+      td(width="" align="center" valign="middle")
+        p(style="LINE-HEIGHT: 120%; MARGIN: 0;")
+          b
+            font(size="2" color="white")= '前月までの問題'
+      td
+        p(align="left" style="LINE-HEIGHT: 120%; MARGIN: 0;")
+          font(size="2" color="white")= '2013年'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-10.html" target="kiroku")
+            font(size="2" color="white")= '10月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-11.html" target="kiroku")
+            font(size="2" color="white")= '11月'
+          font(size="2" color="white")= '12月'
+          font(size="2" color="white")=　'２０１４年'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai14/mon14-01.html" target="kiroku")
+    tr
+      td
+        p(style="LINE-HEIGHT: 120%; MARGIN: 0;")
+          b
+            font(size="2" color="white")= '前月までの問題'
+      td
+        p(align="left" style="LINE-HEIGHT: 120%; MARGIN: 0;")
+          font(size="2" color="white")= '2012年'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai12/mon12-07.html" target="kiroku")
+            font(size="2" color="white")= '7月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai12/mon12-08.html" target="kiroku")
+            font(size="2" color="white")= '8月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai12/mon12-09.html" target="kiroku")
+            font(size="2" color="white")= '9月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai12/mon12-10.html" target="kiroku")
+            font(size="2" color="white")= '10月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai12/mon12-11.html" target="kiroku")
+            font(size="2" color="white")= '11月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai12/mon12-12.html" target="kiroku")
+            font(size="2" color="white")= '12月'
+          font(size="2" color="white")=　'２０１３年'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-01.html" target="kiroku")
+            font(size="2" color="white")= '１月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-02.html" target="kiroku")
+            font(size="2" color="white")= '２月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-03.html" target="kiroku")
+            font(size="2" color="white")= '３月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-04.html" target="kiroku")
+            font(size="2" color="white")= '４月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-05.html" target="kiroku")
+            font(size="2" color="white")= '５月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-06.html" target="kiroku")
+            font(size="2" color="white")= '６月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-07.html" target="kiroku")
+            font(size="2" color="white")= '７月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-08.html" target="kiroku")
+            font(size="2" color="white")= '８月'
+          a(href="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-09.html" target="kiroku")
+            font(size="2" color="white")= '９月'
+
+  //-  インラインフレーム　設定
+  p(style="LINE-HEIGHT: 100%; MARGIN: 0;" align="center")
+    iframe(src="http://www.geocities.jp/syougi_mago/week/mondai13/mon13-11.html" frameborder="0" width="720" name="kiroku" align="center" height="1200" bckground)

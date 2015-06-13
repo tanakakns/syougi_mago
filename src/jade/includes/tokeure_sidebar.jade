@@ -1,0 +1,78 @@
+div.list-group
+  //- list-groupt-item
+  a.list-group-item(href="tokeure_index.html")= 'HOME（懸賞問題）'
+  a.list-group-item(href="tokeure_index.html")= '前回の結果'
+  a.list-group-item(href="tokeure_index.html")
+    | 鍛えろ！終盤力！
+    br
+    | （投稿作コーナー）
+
+  //- 詰将棋入門コーナー list-group-item
+  div.dropdown.list-group-item
+    a.dropdown-toggle#nyuumon(data-toggle="dropdown", aria-expanded="true", style="color: #000000")= '詰将棋入門コーナー'
+      span.caret
+    ul.dropdown-menu(role="menu", aria-labelledby="nyuumon")
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_index.html")= '詰む将棋'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_index.html")= '駒の動かし方'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_index.html")= '詰将棋のルール'
+
+  a.list-group-item(href="tokeure_index.html")
+    | 懸賞問題、練習問題
+    br
+    | 詰か必至か不必至か
+    br
+    | １手詰、各アーカイブ
+
+  p.list-group-item
+    | 随想コーナー
+    br
+    a(href="tokeure_index.html")= '私の思うまま随想'
+
+  p.list-group-item
+    | 【 お知らせ掲示板 】
+    br
+    | ・解答締切日は毎月末日
+    br
+    | ・ＨＰは毎月８日更新
+    br
+    | ・解答など発表は翌々月
+    br
+    a(href="tokeure_index.html")= '投稿作品募集中'
+    br
+    | 詰将棋保存会のお知らせ
+    br
+    a(href="tokeure_index.html")= '年報2012年版完成'
+    br
+    a(href="tokeure_index.html")= '情報提供のお願い'
+
+
+  div.dropdown.list-group-item
+    a.dropdown-toggle#sougoLink(data-toggle="dropdown", aria-expanded="true", style="color: #000000")= '相互リンク'
+      span.caret
+    ul.dropdown-menu(role="menu" aria-labelledby="sougoLink")
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://www.ne.jp/asahi/tetsu/toybox/")= '詰将棋おもちゃ箱'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://www005.upp.so-net.ne.jp/tsumepara/")= '詰将棋パラダイス'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://f8g2l.blog136.fc2.com/blog-category-2.html")= '幻白衣と朔によせて'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://sky.geocities.jp/xspcd163/")= '柿木義一さんの応援HP'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://www.yutopia.or.jp/~shingoro/shogi/")= '将棋普及ねっとfor秋田'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://www.geocities.jp/syoginosato//")= '将棋の里山形とゆうまのホームページ'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://park6.wakwak.com/~k-oohasi/shougi/")= '詰将棋博物館'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://homepage3.nifty.com/1banboshi/index.htm")= '詰将棋一番星'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="http://s9ss.jugem.jp/")= '佐伯九段将棋サロン'
+  
+  p.list-group-item
+    | 解けうれQRコード
+    br
+    img(src="assets/img/tokeure/qr.png")

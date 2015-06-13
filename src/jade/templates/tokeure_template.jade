@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+  //- head
+  include ../includes/tokeure_head.jade
+  
+  body
+    //- ナビゲーション
+    include ../includes/tokeure_nav.jade
+    
+    //- メイン
+    div.container
+      div.row.row-offcanvas.row-offcanvas-left
+        
+        //- サイドバー
+        div.col-xs-6.col-sm-3.sidebar-offcanvas#sidebar
+          include ../includes/tokeure_sidebar.jade
+        
+        //- コンテンツ
+        div.col-xs-12.col-sm-9
+          //- タイトル
+          include ../includes/tokeure_title.jade
+          
+          //- ========== ↓編集対象↓ ==========
+          block content
+          //- ========== ↑編集対象↑ ==========
+          
+          //- フッター
+          
+    //- Placed at the end of the document so the pages load faster
+    include ../includes/tokeure_scripts.jade
