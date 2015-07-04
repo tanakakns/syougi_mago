@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>解けてうれしい詰将棋</title>
+    <link href="assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="assets/css/print.css" media="print" rel="stylesheet" type="text/css"><!--[if IE]>
+    <link href="assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css"><![endif]-->
+    <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/offcanvas.css" rel="stylesheet"><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">将棋を孫へ伝える会へ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-left">
+        <div id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+          <div class="list-group"><a href="tokeure_index.html" class="list-group-item">HOME（懸賞問題）</a><a href="tokeure_kaitou.html" class="list-group-item">前回の結果（懸賞問題）</a>
+            <div class="dropdown list-group-item"><a id="tumehissi" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">鍛えろ！終盤力！<br>（投稿作コーナー）<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="tumehissi" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_tumehissi_mondai.html">問題</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_tumehissi_kaitou.html">解答</a></li>
+              </ul>
+            </div>
+            <div class="dropdown list-group-item"><a id="nyuumon" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">詰将棋入門コーナー<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="nyuumon" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_nyuumon_tumu.html">詰む将棋</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_nyuumon_ugoki.html">駒の動かし方</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_nyuumon_rule.html">詰将棋のルール</a></li>
+              </ul>
+            </div>
+            <div class="dropdown list-group-item"><a id="archieve" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">懸賞問題、練習問題<br>詰か必至か不必至か<br>１手詰、各アーカイブ<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="archieve" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2013.html">２０１３年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2012.html">２０１２年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2011.html">２０１１年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2010.html">２０１０年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2009.html">２００９年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2008.html">２００８年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2007.html">２００７年度</a></li>
+              </ul>
+            </div>
+            <p class="list-group-item">随想コーナー<br><a href="http://zuisou66788.blog69.fc2.com/">私の思うまま随想</a></p>
+            <p class="list-group-item">【 お知らせ掲示板 】<br>・解答締切日は毎月末日<br>・ＨＰは毎月８日更新<br>・解答など発表は翌々月<br><a href="tokeure_toukoubosyuu.html">投稿作品募集中</a><br>詰将棋保存会のお知らせ<br><a href="tokeure_nennpou2012.html">年報2012年版完成</a><br><a href="tokeure_jouhouteikyou.html">情報提供のお願い</a></p>
+            <div class="dropdown list-group-item"><a id="sougoLink" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">相互リンク<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="sougoLink" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.ne.jp/asahi/tetsu/toybox/">詰将棋おもちゃ箱</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www005.upp.so-net.ne.jp/tsumepara/">詰将棋パラダイス</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://f8g2l.blog136.fc2.com/blog-category-2.html">幻白衣と朔によせて</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://sky.geocities.jp/xspcd163/">柿木義一さんの応援HP</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.yutopia.or.jp/~shingoro/shogi/">将棋普及ねっとfor秋田</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.geocities.jp/syoginosato//">将棋の里山形とゆうまのホームページ</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://park6.wakwak.com/~k-oohasi/shougi/">詰将棋博物館</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://homepage3.nifty.com/1banboshi/index.htm">詰将棋一番星</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://s9ss.jugem.jp/">佐伯九段将棋サロン</a></li>
+              </ul>
+            </div>
+            <p class="list-group-item">解けうれQRコード<br><img src="assets/img/tokeure/qr.png"></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-left visible-xs">
+            <button type="button" data-toggle="offcanvas" class="btn btn-primary btn-xs">メニュー</button>
+          </p>
+          <h1 style="background-image: url(assets/img/tokeure/title.jpg); background-repeat: no-repeat; background-size: cover; display: block; margin-left: auto; margin-right:o;" class="text-center"><br><font face="HG明朝B" style="color: #ffffff; background-color: #000000">解けてうれしい詰将棋</font><br><br></h1>
+          <center>
+            <div style="background-color: #0000ff" class="row">
+              <div class="col-xs-2 col-sm-2 col-md-2"></div>
+              <div class="col-xs-1 col-sm-1 col-md-1"><br><img src="assets/img/tokeure/tumehissi/hu.gif"></div>
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                <h3 style="color: #ffffff">投稿作問題　５月号　解答・感想</h3>
+              </div>
+              <div class="col-xs-1 col-sm-1 col-md-1"><br><img src="assets/img/tokeure/tumehissi/hu.gif"></div>
+              <div class="col-xs-2 col-sm-2 col-md-2"></div>
+            </div>
+          </center>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題１　<small>13/14（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150501.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】登場９８回　東京都　大森　常一　様<br>【解答】２二銀、同玉、１四角成まで３手必至。<br>【解答者寸評】　※は事務局コメント<br>坂本栄治郎様 玉の誘い込み見事。<br>※実戦で発見できたら嬉しい手順ですね。</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題２　<small>14/14（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150502.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】登場９９回　東京都　大森　常一　様<br>【解答】１五桂まで１手必至。<br>【解答者寸評】　※は事務局コメント<br>占魚亭様　飛車を支援。<br>※易しめの問題でした。</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題３　<small>12/14（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150503.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】登場３回　横浜市　松岡　信行　様<br>【解答】１二銀、同飛、３三角、同香、１二歩成、同玉、３二飛、２三玉、２二飛成まで９手詰。<br>【解答者寸評】　※は事務局コメント<br>大野　孝様　ここに角を打ってという顔をしていますね。<br>※３三角の一手必至解がありました。筋ですが惜しい。</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題４　<small>14/14（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150504.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】 登場２６回　甲斐市　門田　和雄　様<br>【解答】１六金、同桂、２六銀、同馬、１四飛、２五玉、３四飛成まで７手詰。<br>【解答者寸評】　※は事務局コメント<br>蜂須賀久雄様　手が限られているのでわかりやすいです。<br>※最終引成の解答多数ありましたが１四の飛は成れないので不要かと・・・。</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題５　<small>13/14（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150505.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】登場３０回　堺市　柴田　昭彦　様<br>【解答】３二歩成、２三玉、１三歩成、同玉、１五竜、２三玉、１二竜、同玉、２二馬まで９手詰。<br>【解答者寸評】　※は事務局コメント<br>高見秀夫様　「解けうれにピッタリ」座布団一枚。<br>※１０枚貯まるとものすご～い賞品が（笑）。</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>【当選者】　占魚亭　様</h4><br>
+              <p>【全問正解者】　１１名<br>中村義夫様、小川恒夫様、本多正勝様、
+                高見秀夫様、坂本栄治郎様、木村良一様、
+                鈴木康弘様、蜂須賀久雄様、大野　孝様、
+                占魚亭様、野中正義様
+              </p>
+            </div>
+          </div><br>
+          <hr><br>
+          <center>
+            <div style="background-color: #0000ff" class="row">
+              <div class="col-xs-2 col-sm-2 col-md-2"></div>
+              <div class="col-xs-1 col-sm-1 col-md-1"><br><img src="assets/img/tokeure/tumehissi/hu.gif"></div>
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                <h3 style="color: #ffffff">投稿作問題　４月号　解答・感想</h3>
+              </div>
+              <div class="col-xs-1 col-sm-1 col-md-1"><br><img src="assets/img/tokeure/tumehissi/hu.gif"></div>
+              <div class="col-xs-2 col-sm-2 col-md-2"></div>
+            </div>
+          </center>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題１　<small>19/19（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150401.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】 出題 編集部<br>【解答】３三龍まで１手必至。<br>【解答者寸評】　※は事務局コメント<br>鈴木康弘様　 絵に描いたようなダブル詰めろ必至。<br>※実戦でさせるだろうか？のご意見も多数ありました。</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題２　<small>18/19（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150402.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】登場３回 京都市 岩崎 柊典 様<br>【解答】４一銀、同銀、２二金、同玉、３一角、１二玉、１三銀、同桂、２二金　まで９手詰。<br>【解答者寸評】　※は事務局コメント<br>高見秀夫様　持駒にウンザリ、手順はアッサリ。<br>※初手の後は一本道ですね。</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題３　<small>18/19（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150403.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】登場１６５回 高岡市 藤井 憲郎 様<br>【解答】２五桂、同龍、２二龍、２四玉、３四角成、同玉、３三龍まで７手詰。<br>【解答者寸評】　※は事務局コメント<br>大野　孝様　最後の形は？<br>※一輪挿しかフラスコでしょうか？龍のスイッチバックが好評でした。</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題４　<small>19/19（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150404.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】 登場１６６回 高岡市 藤井 憲郎 様<br>【解答】３一金、２二玉、３四桂、同飛、３二金打、２三玉、３三金、同玉、３二角成　まで９手詰。<br>【解答者寸評】　※は事務局コメント<br>玉木英幸様　一回解けたのに回答作成時にまたわからなくなりました。<br>※重い金の重ね打ちが好評でした。</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>問題５　<small>17/19（正解/応募）</small></h4><img src="assets/img/tokeure/toukousaku/150405.jpg" align="bottom" width="275" height="251"><br>
+              <p>【出題】 登場２４回 甲斐市 門田 和雄 様<br>【解答】１五金、同玉、２四角、同玉、３四飛成、１五玉、２七桂、１六玉、２五龍、同玉、１五金まで１１手詰。<br>【解答者寸評】　※は事務局コメント<br>占魚亭　様　１５金に始まり１５金に終わる。傍観する守備陣が哀れ。<br>※１５金～１５金は作為か僥倖か。２五龍の味と合わせて好評でした。</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h4>【当選者】　森田　茂　様</h4><br>
+              <p>【全問正解者】　１７名<br>玉木英幸様、森田　茂様、中村義夫様、
+                小川恒夫様、木村良一様、野中正義様、
+                大沼　貴様、坂本栄治郎様、高見秀夫様、
+                本多正勝様、蜂須賀久雄様、石川　浩様、
+                鈴木康弘様、占魚亭様、門田和雄様、
+                國吉　進様、田野保　幸平様
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="offcanvas"]').click(function () {
+          $('.row-offcanvas').toggleClass('active')
+        });
+      });
+    </script>
+  </body>
+</html>

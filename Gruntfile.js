@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       compile: {
         expand: true,
         cwd: 'src/jade/',
-        src: '*.jade',
+        src: '**/*.jade',
         dest: 'dest/',
         ext: '.html'
       }

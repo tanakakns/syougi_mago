@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>解けてうれしい詰将棋</title>
+    <link href="assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="assets/css/print.css" media="print" rel="stylesheet" type="text/css"><!--[if IE]>
+    <link href="assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css"><![endif]-->
+    <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/offcanvas.css" rel="stylesheet"><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">将棋を孫へ伝える会へ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-left">
+        <div id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+          <div class="list-group"><a href="tokeure_index.html" class="list-group-item">HOME（懸賞問題）</a><a href="tokeure_kaitou.html" class="list-group-item">前回の結果（懸賞問題）</a>
+            <div class="dropdown list-group-item"><a id="tumehissi" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">鍛えろ！終盤力！<br>（投稿作コーナー）<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="tumehissi" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_tumehissi_mondai.html">問題</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_tumehissi_kaitou.html">解答</a></li>
+              </ul>
+            </div>
+            <div class="dropdown list-group-item"><a id="nyuumon" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">詰将棋入門コーナー<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="nyuumon" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_nyuumon_tumu.html">詰む将棋</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_nyuumon_ugoki.html">駒の動かし方</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_nyuumon_rule.html">詰将棋のルール</a></li>
+              </ul>
+            </div>
+            <div class="dropdown list-group-item"><a id="archieve" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">懸賞問題、練習問題<br>詰か必至か不必至か<br>１手詰、各アーカイブ<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="archieve" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2013.html">２０１３年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2012.html">２０１２年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2011.html">２０１１年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2010.html">２０１０年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2009.html">２００９年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2008.html">２００８年度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="tokeure_archive2007.html">２００７年度</a></li>
+              </ul>
+            </div>
+            <p class="list-group-item">随想コーナー<br><a href="http://zuisou66788.blog69.fc2.com/">私の思うまま随想</a></p>
+            <p class="list-group-item">【 お知らせ掲示板 】<br>・解答締切日は毎月末日<br>・ＨＰは毎月８日更新<br>・解答など発表は翌々月<br><a href="tokeure_toukoubosyuu.html">投稿作品募集中</a><br>詰将棋保存会のお知らせ<br><a href="tokeure_nennpou2012.html">年報2012年版完成</a><br><a href="tokeure_jouhouteikyou.html">情報提供のお願い</a></p>
+            <div class="dropdown list-group-item"><a id="sougoLink" data-toggle="dropdown" aria-expanded="true" style="color: #000000" class="dropdown-toggle">相互リンク<span class="caret"></span></a>
+              <ul role="menu" aria-labelledby="sougoLink" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.ne.jp/asahi/tetsu/toybox/">詰将棋おもちゃ箱</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www005.upp.so-net.ne.jp/tsumepara/">詰将棋パラダイス</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://f8g2l.blog136.fc2.com/blog-category-2.html">幻白衣と朔によせて</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://sky.geocities.jp/xspcd163/">柿木義一さんの応援HP</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.yutopia.or.jp/~shingoro/shogi/">将棋普及ねっとfor秋田</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.geocities.jp/syoginosato//">将棋の里山形とゆうまのホームページ</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://park6.wakwak.com/~k-oohasi/shougi/">詰将棋博物館</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://homepage3.nifty.com/1banboshi/index.htm">詰将棋一番星</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://s9ss.jugem.jp/">佐伯九段将棋サロン</a></li>
+              </ul>
+            </div>
+            <p class="list-group-item">解けうれQRコード<br><img src="assets/img/tokeure/qr.png"></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-left visible-xs">
+            <button type="button" data-toggle="offcanvas" class="btn btn-primary btn-xs">メニュー</button>
+          </p>
+          <h1 style="background-image: url(assets/img/tokeure/title.jpg); background-repeat: no-repeat; background-size: cover; display: block; margin-left: auto; margin-right:o;" class="text-center"><br><font face="HG明朝B" style="color: #ffffff; background-color: #000000">解けてうれしい詰将棋</font><br><br></h1>
+          <center>
+            <p><font sytle="color: #0000ff;"><strong>懸賞詰将棋　平成２７年４月号　解答<br>＝ 出題　横浜市　おおた　葉一郎　様　＝</strong></font></p><img src="assets/img/tokeure/kensyoumondai/1504.gif" width="447" height="345"><br><img src="assets/img/tokeure/kaitou/kaitou.gif" width="34" height="20">
+            <p>１四飛、同玉、１六香、２四玉、１五角、１四玉、３四飛成、同馬、３三角成まで９手詰。<br>※中段玉ですが必然の一本道で詰みます。<br>解答者　２８名　（正解者２７名)</p><br><img src="assets/img/tokeure/kaitou/sunpyou.gif" width="89" height="20">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <td class="col-xs-2 col-sm-2 col-md-2"><b>お名前</b></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2"><b>連続正解月数</b></td>
+                    <td class="col-xs-5 col-sm-5 col-md-5"><b>コメント</b></td>
+                    <td class="col-xs-3 col-sm-3 col-md-3"><b>事務局コメント</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>玉木英幸様</td>
+                    <td>7</td>
+                    <td>最後は３三飛が邪魔ゴマとは・・。うまくできてますね。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>高田明浩様</td>
+                    <td>1</td>
+                    <td>３四飛成が気持ちの良い手で、解けてうれしかったです。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>中村義夫様</td>
+                    <td>15</td>
+                    <td>難しさはないが、シンプルで大駒捨ての爽快感がいい。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>木村良一様</td>
+                    <td>23</td>
+                    <td>素直な手順の開き王手ものでした。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>田辺　涼様</td>
+                    <td>1</td>
+                    <td>父親が代理応募しております。よろしくお願い申し上げます。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>坂本栄治郎様</td>
+                    <td>23</td>
+                    <td>見事な飛角の連係、馬の翻弄面白い。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>高見秀夫様</td>
+                    <td>4</td>
+                    <td>美人で気立てがよく、誰からも好かれる。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>蜂須賀久雄様</td>
+                    <td>22</td>
+                    <td>懸賞問題としては少し物足りない感じがします。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>タケシ様</td>
+                    <td>1</td>
+                    <td>難しかったです。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>大野　孝様</td>
+                    <td>3</td>
+                    <td>これしかないという手が続きます。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>彦田栄和様</td>
+                    <td>1</td>
+                    <td>初めて９手詰に挑戦しました。合っていますか？</td>
+                    <td>正解です。</td>
+                  </tr>
+                  <tr>
+                    <td>高野甚蔵様</td>
+                    <td>1</td>
+                    <td>34飛成がちょっと変わった収束と思う。25歩の配置もぴったり！</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>坂野　均様</td>
+                    <td>1</td>
+                    <td>７手目１３飛成とやってしばし悶絶。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>門田和雄様</td>
+                    <td>39</td>
+                    <td>３３飛がじゃま駒だとは思いませんでした。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>沖　昌幸様</td>
+                    <td>1</td>
+                    <td>おおた氏らしからぬ好形好手順。</td>
+                    <td>いつもは悪形悪手順なのでしょうか</td>
+                  </tr>
+                  <tr>
+                    <td>安井進　様</td>
+                    <td>1</td>
+                    <td>玉方が狭く初手発見が容易</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>岩橋進　様</td>
+                    <td>1</td>
+                    <td>1六からの逃走を許せず、初手1四飛、以下1六香で上下挟み撃ち1五角から3四飛成が妙手、3三角成で詰み上がる。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>占魚亭様</td>
+                    <td>35</td>
+                    <td>受方25歩を上手に逆用</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>タケシ　様</td>
+                    <td>1</td>
+                    <td>難しかったです。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>石川　浩様</td>
+                    <td>5</td>
+                    <td>初手は決まりですが、15角、14玉の局面で一瞬考え込みました。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>大沼　貴様</td>
+                    <td>3</td>
+                    <td>気持ちの良い開き王手。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>山川空海様</td>
+                    <td>2</td>
+                    <td>玉を下段に落として最後は空き王手。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>森田　茂様</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>小川恒夫様</td>
+                    <td>19</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>野中正義様</td>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>本多正勝様</td>
+                    <td>9</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>鈴木康弘様</td>
+                    <td>11</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>國吉　進様</td>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>柳沢孝志様</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div><br><img src="http://www.geocities.jp/syougi_mago/kaitou6678/hyousi/tosensya.gif" width="53" height="20">
+            <p style="LINE-HEIGHT: 150%"><b>高田　明浩　様</b><br><br></p>
+          </center>
+          <div class="row">
+            <hr>
+          </div>
+          <center>
+            <p><font sytle="color: #0000ff;"><strong>懸賞詰将棋　平成２７年５月号　解答<br>＝ 大津市　上田　雅洋　様　＝</strong></font></p><img src="assets/img/tokeure/kensyoumondai/1505.png" width="447" height="345"><br><img src="assets/img/tokeure/kaitou/kaitou.gif" width="34" height="20">
+            <p>１一角成、同玉、２一金、１二玉、３四角成、同銀、３二竜、同銀、２二金打まで９手詰。<br>※大駒３枚を捨てる手順が爽快と好評でした。<br>解答者　１８名　（正解者１７名)</p><br><img src="assets/img/tokeure/kaitou/sunpyou.gif" width="89" height="20">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <td class="col-xs-2 col-sm-2 col-md-2"><b>お名前</b></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2"><b>連続正解月数</b></td>
+                    <td class="col-xs-5 col-sm-5 col-md-5"><b>コメント</b></td>
+                    <td class="col-xs-3 col-sm-3 col-md-3"><b>事務局コメント</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>玉木英幸様</td>
+                    <td>8</td>
+                    <td>これほど強い方が近所におられたとは。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>坂本栄治郎様</td>
+                    <td>24</td>
+                    <td>２枚の銀の翻弄面白い。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>木村良一様</td>
+                    <td>24</td>
+                    <td>３手目２一金に気付いて、一気に解けました。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>川浜次夫様</td>
+                    <td>1</td>
+                    <td>２手目２三玉と逃げた場合のほうが、かえって苦労しました。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>鈴木康弘様</td>
+                    <td>12</td>
+                    <td>２一金が一目では指しづらい俗手の好手。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>蜂須賀久雄様</td>
+                    <td>23</td>
+                    <td>手順は簡単ですが狭い範囲にうまく収めたものだと感心。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>大野　孝様</td>
+                    <td>4</td>
+                    <td>３手目が意外と浮かばないです。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>占魚亭様</td>
+                    <td>36</td>
+                    <td>密集形をほぐし22地点の銀の利きを外す、心地よい捌き。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>石川　浩様</td>
+                    <td>6</td>
+                    <td>上部に逃げられそうに見えますが32竜の素晴らしい決め手を発見。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>大沼　貴　様</td>
+                    <td>4</td>
+                    <td>7手目３二龍が題意かな？2手目２三玉の変化が11手詰めになってしまい、しばらく悩みました。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>井上賢一様</td>
+                    <td>1</td>
+                    <td>大駒が全て捌けて爽快。図がぼやけていて目が疲れるので、前に戻して欲しい。</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>高見秀夫　様</td>
+                    <td>5</td>
+                    <td>大駒３枚消える気持ちのいい手順</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>小川恒夫　様</td>
+                    <td>20</td>
+                    <td>大駒３枚捨てるのが爽快</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>中村義夫様</td>
+                    <td>16</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>本多正勝様</td>
+                    <td>10</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>ポチ様</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>國吉　進様</td>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div><br><img src="http://www.geocities.jp/syougi_mago/kaitou6678/hyousi/tosensya.gif" width="53" height="20">
+            <p style="LINE-HEIGHT: 150%"><b>ポチ 様</b><b style="color: #ff0000">（ご住所本名をこっそりとお知らせ願います）</b><br><br></p>
+            <p>なお、ＨＰ掲載遅れ、図面変更等ご迷惑をおかけしました。</p>
+          </center>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="offcanvas"]').click(function () {
+          $('.row-offcanvas').toggleClass('active')
+        });
+      });
+    </script>
+  </body>
+</html>

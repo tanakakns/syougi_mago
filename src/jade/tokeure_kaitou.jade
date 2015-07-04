@@ -1,0 +1,326 @@
+extends ./templates/tokeure_template.jade
+
+block content
+  center
+    //- ★★解答ブロックここから★★
+    //-  解答タイトルと作者表示　ここから
+    p
+      font(sytle="color: #0000ff;")
+        strong
+          | 懸賞詰将棋　平成２７年４月号　解答
+          br
+          | ＝ 出題　横浜市　おおた　葉一郎　様　＝
+    //-  解答タイトルと作者表示　ここまで
+    //-  解答問題表示　ここから
+    img(src="assets/img/tokeure/kensyoumondai/1504.gif" width=447 align=bottom height=345)
+    //-  解答問題表示　ここまで
+    br
+    img(src="assets/img/tokeure/kaitou/kaitou.gif" width=34 align=absBottom height=20)
+    p
+      | １四飛、同玉、１六香、２四玉、１五角、１四玉、３四飛成、同馬、３三角成まで９手詰。
+      br
+      | ※中段玉ですが必然の一本道で詰みます。
+      br
+      | 解答者　２８名　（正解者２７名)
+    br
+    img(src="assets/img/tokeure/kaitou/sunpyou.gif" width=89 align=absBottom height=20)
+    div.table-responsive
+      table.table.table-bordered
+        thead
+          tr
+            td.col-xs-2.col-sm-2.col-md-2
+              b= 'お名前'
+            td.col-xs-2.col-sm-2.col-md-2
+              b= '連続正解月数'
+            td.col-xs-5.col-sm-5.col-md-5
+              b= 'コメント'
+            td.col-xs-3.col-sm-3.col-md-3
+              b= '事務局コメント'
+        tbody
+          tr
+            td= '玉木英幸様'
+            td= '7'
+            td= '最後は３三飛が邪魔ゴマとは・・。うまくできてますね。'
+            td= ''
+          tr
+            td= '高田明浩様'
+            td= '1'
+            td= '３四飛成が気持ちの良い手で、解けてうれしかったです。'
+            td= ''
+          tr
+            td= '中村義夫様'
+            td= '15'
+            td= '難しさはないが、シンプルで大駒捨ての爽快感がいい。'
+            td= ''
+          tr
+            td= '木村良一様'
+            td= '23'
+            td= '素直な手順の開き王手ものでした。'
+            td= ''
+          tr
+            td= '田辺　涼様'
+            td= '1'
+            td= '父親が代理応募しております。よろしくお願い申し上げます。'
+            td= ''
+          tr
+            td= '坂本栄治郎様'
+            td= '23'
+            td= '見事な飛角の連係、馬の翻弄面白い。'
+            td= ''
+          tr
+            td= '高見秀夫様'
+            td= '4'
+            td= '美人で気立てがよく、誰からも好かれる。'
+            td= ''
+          tr
+            td= '蜂須賀久雄様'
+            td= '22'
+            td= '懸賞問題としては少し物足りない感じがします。'
+            td= ''
+          tr
+            td= 'タケシ様'
+            td= '1'
+            td= '難しかったです。'
+            td= ''
+          tr
+            td= '大野　孝様'
+            td= '3'
+            td= 'これしかないという手が続きます。'
+            td= ''
+          tr
+            td= '彦田栄和様'
+            td= '1'
+            td= '初めて９手詰に挑戦しました。合っていますか？'
+            td= '正解です。'
+          tr
+            td= '高野甚蔵様'
+            td= '1'
+            td= '34飛成がちょっと変わった収束と思う。25歩の配置もぴったり！'
+            td= ''
+          tr
+            td= '坂野　均様'
+            td= '1'
+            td= '７手目１３飛成とやってしばし悶絶。'
+            td= ''
+          tr
+            td= '門田和雄様'
+            td= '39'
+            td= '３３飛がじゃま駒だとは思いませんでした。'
+            td= ''
+          tr
+            td= '沖　昌幸様'
+            td= '1'
+            td= 'おおた氏らしからぬ好形好手順。'
+            td= 'いつもは悪形悪手順なのでしょうか'
+          tr
+            td= '安井進　様'
+            td= '1'
+            td= '玉方が狭く初手発見が容易'
+            td= ''
+          tr
+            td= '岩橋進　様'
+            td= '1'
+            td= '1六からの逃走を許せず、初手1四飛、以下1六香で上下挟み撃ち1五角から3四飛成が妙手、3三角成で詰み上がる。'
+            td= ''
+          tr
+            td= '占魚亭様'
+            td= '35'
+            td= '受方25歩を上手に逆用'
+            td= ''
+          tr
+            td= 'タケシ　様'
+            td= '1'
+            td= '難しかったです。'
+            td= ''
+          tr
+            td= '石川　浩様'
+            td= '5'
+            td= '初手は決まりですが、15角、14玉の局面で一瞬考え込みました。'
+            td= ''
+          tr
+            td= '大沼　貴様'
+            td= '3'
+            td= '気持ちの良い開き王手。'
+            td= ''
+          tr
+            td= '山川空海様'
+            td= '2'
+            td= '玉を下段に落として最後は空き王手。'
+            td= ''
+          tr
+            td= '森田　茂様'
+            td= '1'
+            td= ''
+            td= ''
+          tr
+            td= '小川恒夫様'
+            td= '19'
+            td= ''
+            td= ''
+          tr
+            td= '野中正義様'
+            td= '3'
+            td= ''
+            td= ''
+          tr
+            td= '本多正勝様'
+            td= '9'
+            td= ''
+            td= ''
+          tr
+            td= '鈴木康弘様'
+            td= '11'
+            td= ''
+            td= ''
+          tr
+            td= '國吉　進様'
+            td= '4'
+            td= ''
+            td= ''
+          tr
+            td= '柳沢孝志様'
+            td= '1'
+            td= ''
+            td= ''
+    br
+    //- 当選者
+    img(src="http://www.geocities.jp/syougi_mago/kaitou6678/hyousi/tosensya.gif" width=53 align=absBottom height=20)
+    p(style="LINE-HEIGHT: 150%" align=left)
+      b= '高田　明浩　様'
+      br
+      br
+  
+  //- 切れ目
+  div.row
+    hr
+  
+  center
+    //- ★★解答ブロックここから★★
+    //-  解答タイトルと作者表示　ここから
+    p
+      font(sytle="color: #0000ff;")
+        strong
+          | 懸賞詰将棋　平成２７年５月号　解答
+          br
+          | ＝ 大津市　上田　雅洋　様　＝
+    //-  解答タイトルと作者表示　ここまで
+    //-  解答問題表示　ここから
+    img(src="assets/img/tokeure/kensyoumondai/1505.png" width=447 align=bottom height=345)
+    //-  解答問題表示　ここまで
+    br
+    img(src="assets/img/tokeure/kaitou/kaitou.gif" width=34 align=absBottom height=20)
+    p
+      | １一角成、同玉、２一金、１二玉、３四角成、同銀、３二竜、同銀、２二金打まで９手詰。
+      br
+      | ※大駒３枚を捨てる手順が爽快と好評でした。
+      br
+      | 解答者　１８名　（正解者１７名)
+    br
+    img(src="assets/img/tokeure/kaitou/sunpyou.gif" width=89 align=absBottom height=20)
+    div.table-responsive
+      table.table.table-bordered
+        thead
+          tr
+            td.col-xs-2.col-sm-2.col-md-2
+              b= 'お名前'
+            td.col-xs-2.col-sm-2.col-md-2
+              b= '連続正解月数'
+            td.col-xs-5.col-sm-5.col-md-5
+              b= 'コメント'
+            td.col-xs-3.col-sm-3.col-md-3
+              b= '事務局コメント'
+        tbody
+          tr
+            td= '玉木英幸様'
+            td= '8'
+            td= 'これほど強い方が近所におられたとは。'
+            td= ''
+          tr
+            td= '坂本栄治郎様'
+            td= '24'
+            td= '２枚の銀の翻弄面白い。'
+            td= ''
+          tr
+            td= '木村良一様'
+            td= '24'
+            td= '３手目２一金に気付いて、一気に解けました。'
+            td= ''
+          tr
+            td= '川浜次夫様'
+            td= '1'
+            td= '２手目２三玉と逃げた場合のほうが、かえって苦労しました。'
+            td= ''
+          tr
+            td= '鈴木康弘様'
+            td= '12'
+            td= '２一金が一目では指しづらい俗手の好手。'
+            td= ''
+          tr
+            td= '蜂須賀久雄様'
+            td= '23'
+            td= '手順は簡単ですが狭い範囲にうまく収めたものだと感心。'
+            td= ''
+          tr
+            td= '大野　孝様'
+            td= '4'
+            td= '３手目が意外と浮かばないです。'
+            td= ''
+          tr
+            td= '占魚亭様'
+            td= '36'
+            td= '密集形をほぐし22地点の銀の利きを外す、心地よい捌き。'
+            td= ''
+          tr
+            td= '石川　浩様'
+            td= '6'
+            td= '上部に逃げられそうに見えますが32竜の素晴らしい決め手を発見。'
+            td= ''
+          tr
+            td= '大沼　貴　様'
+            td= '4'
+            td= '7手目３二龍が題意かな？2手目２三玉の変化が11手詰めになってしまい、しばらく悩みました。'
+            td= ''
+          tr
+            td= '井上賢一様'
+            td= '1'
+            td= '大駒が全て捌けて爽快。図がぼやけていて目が疲れるので、前に戻して欲しい。'
+            td= ''
+          tr
+            td= '高見秀夫　様'
+            td= '5'
+            td= '大駒３枚消える気持ちのいい手順'
+            td= ''
+          tr
+            td= '小川恒夫　様'
+            td= '20'
+            td= '大駒３枚捨てるのが爽快'
+            td= ''
+          tr
+            td= '中村義夫様'
+            td= '16'
+            td= ''
+            td= ''
+          tr
+            td= '本多正勝様'
+            td= '10'
+            td= ''
+            td= ''
+          tr
+            td= 'ポチ様'
+            td= '1'
+            td= ''
+            td= ''
+          tr
+            td= '國吉　進様'
+            td= '5'
+            td= ''
+            td= ''
+    br
+    //- 当選者
+    img(src="http://www.geocities.jp/syougi_mago/kaitou6678/hyousi/tosensya.gif" width=53 align=absBottom height=20)
+    p(style="LINE-HEIGHT: 150%" align=left)
+      b= 'ポチ 様'
+      b(style="color: #ff0000")= '（ご住所本名をこっそりとお知らせ願います）'
+      br
+      br
+    p= 'なお、ＨＰ掲載遅れ、図面変更等ご迷惑をおかけしました。'

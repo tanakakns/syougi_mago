@@ -1,0 +1,54 @@
+extends ./templates/tokeure_template.jade
+
+block content
+  center
+    //- 今週の詰む将棋
+    div.row(style="background-color: #0000ff")
+      h3.text-center(style="color: #ffffff")= '【 駒の動かし方 】'
+  br
+  div.row
+    div.col-xs-7.col-sm-7.col-md-7
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma01.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '玉手、玉手の連続で詰める。'
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma02.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '玉は最善、最長の逃げ方をする。'
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma03.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '攻め方は最短の詰め方をする。'
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma04.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '無駄な合駒をしない。'
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma05.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '行き所のない駒は打てない。'
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma06.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '打ち歩詰は禁止。突き歩詰めは○。'
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma07.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '二歩は禁止。'
+      div.row
+        div.col-xs-1.col-sm-1.col-md-1
+          img(src="assets/img/tokeure/nyuumon/rule/koma08.gif")
+        div.col-xs-11.col-sm-11.col-md-11
+          p= '盤面にない駒（攻め方の玉を除く）は玉方の持ち駒とし、合駒にできる。'
+    div.col-xs-5.col-sm-5.col-md-5
+      img.img-responsive(src="assets/img/tokeure/nyuumon/rule/3c.jpg")
+  br
+  P= '＜その他＞詰将棋は本来３手詰め以上を言う。'

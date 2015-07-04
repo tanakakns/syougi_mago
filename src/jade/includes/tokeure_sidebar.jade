@@ -1,8 +1,22 @@
 div.list-group
   //- list-groupt-item
   a.list-group-item(href="tokeure_index.html")= 'HOME（懸賞問題）'
-  a.list-group-item(href="tokeure_index.html")= '前回の結果'
-  a.list-group-item(href="tokeure_index.html")
+  a.list-group-item(href="tokeure_kaitou.html")= '前回の結果（懸賞問題）'
+
+  //- 鍛えろ！終盤力！
+  div.dropdown.list-group-item
+    a.dropdown-toggle#tumehissi(data-toggle="dropdown", aria-expanded="true", style="color: #000000")
+      | 鍛えろ！終盤力！
+      br
+      | （投稿作コーナー）
+      span.caret
+    ul.dropdown-menu(role="menu", aria-labelledby="tumehissi")
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_tumehissi_mondai.html")= '問題'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_tumehissi_kaitou.html")= '解答'
+  //-
+   a.list-group-item(href="tokeure_index.html")
     | 鍛えろ！終盤力！
     br
     | （投稿作コーナー）
@@ -13,23 +27,42 @@ div.list-group
       span.caret
     ul.dropdown-menu(role="menu", aria-labelledby="nyuumon")
       li(role="presentation")
-        a(role="menuitem", tabindex="-1", href="tokeure_index.html")= '詰む将棋'
+        a(role="menuitem", tabindex="-1", href="tokeure_nyuumon_tumu.html")= '詰む将棋'
       li(role="presentation")
-        a(role="menuitem", tabindex="-1", href="tokeure_index.html")= '駒の動かし方'
+        a(role="menuitem", tabindex="-1", href="tokeure_nyuumon_ugoki.html")= '駒の動かし方'
       li(role="presentation")
-        a(role="menuitem", tabindex="-1", href="tokeure_index.html")= '詰将棋のルール'
+        a(role="menuitem", tabindex="-1", href="tokeure_nyuumon_rule.html")= '詰将棋のルール'
+  
+  //- アーカイブ
 
-  a.list-group-item(href="tokeure_index.html")
-    | 懸賞問題、練習問題
-    br
-    | 詰か必至か不必至か
-    br
-    | １手詰、各アーカイブ
+  div.dropdown.list-group-item
+    a.dropdown-toggle#archieve(data-toggle="dropdown", aria-expanded="true", style="color: #000000")
+      | 懸賞問題、練習問題
+      br
+      | 詰か必至か不必至か
+      br
+      | １手詰、各アーカイブ
+      span.caret
+    ul.dropdown-menu(role="menu", aria-labelledby="archieve")
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_archive2013.html")= '２０１３年度'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_archive2012.html")= '２０１２年度'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_archive2011.html")= '２０１１年度'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_archive2010.html")= '２０１０年度'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_archive2009.html")= '２００９年度'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_archive2008.html")= '２００８年度'
+      li(role="presentation")
+        a(role="menuitem", tabindex="-1", href="tokeure_archive2007.html")= '２００７年度'
 
   p.list-group-item
     | 随想コーナー
     br
-    a(href="tokeure_index.html")= '私の思うまま随想'
+    a(href="http://zuisou66788.blog69.fc2.com/")= '私の思うまま随想'
 
   p.list-group-item
     | 【 お知らせ掲示板 】
@@ -40,13 +73,13 @@ div.list-group
     br
     | ・解答など発表は翌々月
     br
-    a(href="tokeure_index.html")= '投稿作品募集中'
+    a(href="tokeure_toukoubosyuu.html")= '投稿作品募集中'
     br
     | 詰将棋保存会のお知らせ
     br
-    a(href="tokeure_index.html")= '年報2012年版完成'
+    a(href="tokeure_nennpou2012.html")= '年報2012年版完成'
     br
-    a(href="tokeure_index.html")= '情報提供のお願い'
+    a(href="tokeure_jouhouteikyou.html")= '情報提供のお願い'
 
 
   div.dropdown.list-group-item
