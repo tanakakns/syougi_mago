@@ -1,0 +1,21 @@
+center
+  div(style="backgroupnd-color: #ffcf63;")
+    h3= '懸賞問題　２０１３年６月号　出題：中田　章道　様'
+  br
+  //- img(src="http://www.geocities.jp/kaitou6678/xbacknm/13mondai/ken1301.gif" width="447" height="345")
+  img(src="assets/img/tokeure/archive/ken/13/06.gif" width="447" height="345")
+  h4
+    span.word(onmouseover="InfoOn(ht1)" onmouseout="InfoOff(ht1)")= '【解答】'
+  div#ht1.info(style="visibility: hidden;")
+    p= '２二竜　同金　２四角　同金　１四歩　同金　同馬　同玉　２四金まで９手詰。'
+script(language="JavaScript")
+  | function InfoOn(obj){
+  |   obj.style.visibility =  "visible";
+  |   x = event.clientX+document.body.scrollLeft+10;
+  |   y = event.clientY+document.body.scrollTop+10;
+  |   obj.style.left = x;
+  |   obj.style.top = y;
+  | }
+  | function InfoOff(obj){
+  |   obj.style.visibility = "hidden";
+  | }

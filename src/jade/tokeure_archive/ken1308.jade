@@ -1,0 +1,21 @@
+center
+  div(style="backgroupnd-color: #ffcf63;")
+    h3= '懸賞問題　２０１３年８月号　出題：井上　賢一　様'
+  br
+  //- img(src="http://www.geocities.jp/kaitou6678/xbacknm/13mondai/ken1301.gif" width="447" height="345")
+  img(src="assets/img/tokeure/archive/ken/13/08.gif" width="447" height="345")
+  h4
+    span.word(onmouseover="InfoOn(ht1)" onmouseout="InfoOff(ht1)")= '【解答】'
+  div#ht1.info(style="visibility: hidden;")
+    p= '３四銀不成、２二玉、３三竜、１一玉、１二歩、同玉、１三竜、同玉、２三角成まで９手詰。'
+script(language="JavaScript")
+  | function InfoOn(obj){
+  |   obj.style.visibility =  "visible";
+  |   x = event.clientX+document.body.scrollLeft+10;
+  |   y = event.clientY+document.body.scrollTop+10;
+  |   obj.style.left = x;
+  |   obj.style.top = y;
+  | }
+  | function InfoOff(obj){
+  |   obj.style.visibility = "hidden";
+  | }

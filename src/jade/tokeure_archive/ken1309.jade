@@ -1,0 +1,21 @@
+center
+  div(style="backgroupnd-color: #ffcf63;")
+    h3= '懸賞問題　２０１３年９月号　出題：大森　常一　様'
+  br
+  //- img(src="http://www.geocities.jp/kaitou6678/xbacknm/13mondai/ken1301.gif" width="447" height="345")
+  img(src="assets/img/tokeure/archive/ken/13/09.gif" width="447" height="345")
+  h4
+    span.word(onmouseover="InfoOn(ht1)" onmouseout="InfoOff(ht1)")= '【解答】'
+  div#ht1.info(style="visibility: hidden;")
+    p= '１二銀不成、同玉、３二飛、２三玉、１四角、同玉、１五歩、２三玉、２二飛成まで９手詰。'
+script(language="JavaScript")
+  | function InfoOn(obj){
+  |   obj.style.visibility =  "visible";
+  |   x = event.clientX+document.body.scrollLeft+10;
+  |   y = event.clientY+document.body.scrollTop+10;
+  |   obj.style.left = x;
+  |   obj.style.top = y;
+  | }
+  | function InfoOff(obj){
+  |   obj.style.visibility = "hidden";
+  | }

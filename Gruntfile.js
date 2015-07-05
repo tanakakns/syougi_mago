@@ -46,7 +46,8 @@ module.exports = function(grunt) {
     // jadeタスク（grunt-contrib-jade）の設定
     jade: {
       options: {
-        pretty: true
+        pretty: true,
+        data: require('./readJSON.js')
       },
       compile: {
         expand: true,

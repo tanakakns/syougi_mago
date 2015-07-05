@@ -1,0 +1,149 @@
+{
+  "title" : "詰将棋練習問題　１～２４題　２０１３年６月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0601.jpg",
+      "hint" : "ヒント：桂の打ち場所は？",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0602.jpg",
+      "hint" : "ヒント：桂の打ち場所は？",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0603.jpg",
+      "hint" : "ヒント：打ち歩詰めに注意して。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0604.jpg",
+      "hint" : "ヒント：香の基本活用。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0605.jpg",
+      "hint" : "ヒント：うまい捨てだよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0606.jpg",
+      "hint" : "ヒント：詰めやすい場所へ王を誘う。",
+      "author" : ""
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0607.jpg",
+      "hint" : "ヒント：角をどこに打つか？",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0608.jpg",
+      "hint" : "ヒント：馬の守備をはずす。",
+      "author" : ""
+    },
+    {
+      "title" : "問題９　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0609.jpg",
+      "hint" : "ヒント：逃げられないように！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１０　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0610.jpg",
+      "hint" : "ヒント：問題１のおさらいだよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0611.jpg",
+      "hint" : "ヒント：問題４のおさらいだよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0612.jpg",
+      "hint" : "ヒント：問題１１のおさらいだよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0613.jpg",
+      "hint" : "ヒント：問題１のおさらいだよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0614.jpg",
+      "hint" : "ヒント：３手目の妙手を発見してね。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0615.jpg",
+      "hint" : "ヒント：飛車の打ち場所に細心の注意！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１６　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0616.jpg",
+      "hint" : "ヒント：飛車の打ち場所はどこかな？",
+      "author" : ""
+    },
+    {
+      "title" : "問題１７　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0617.jpg",
+      "hint" : "ヒント：金一枚はとどめに残す。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１８　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0618.jpg",
+      "hint" : "ヒント：邪魔駒を消す。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１９　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0619.jpg",
+      "hint" : "ヒント：筋良く攻めていきます。",
+      "author" : "登場１６回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題２０　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0620.jpg",
+      "hint" : "ヒント：手順前後すると失敗します。",
+      "author" : "登場１７回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題２１　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0621.jpg",
+      "hint" : "ヒント：打ち歩詰めに気をつけて。",
+      "author" : "登場１８回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題２２　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0622.jpg",
+      "hint" : "ヒント：飛と馬の連携で詰ませます。",
+      "author" : "登場１９回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題２３　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0623.jpg",
+      "hint" : "ヒント：合い駒が動きます。",
+      "author" : "登場８回　北村　憲一　様"
+    },
+    {
+      "title" : "問題２４　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0624.jpg",
+      "hint" : "ヒント：筋良く攻めていきます。",
+      "author" : "登場１０回　柴田　昭彦　様"
+    }
+  ]
+}

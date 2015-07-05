@@ -1,0 +1,137 @@
+{
+  "title" : "詰将棋練習問題　１～２２題　２０１３年７月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0701.jpg",
+      "hint" : "ヒント：打歩詰は反則ですが突き歩詰はＯＫ！",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0702.jpg",
+      "hint" : "ヒント：一歩千金。",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0703.jpg",
+      "hint" : "ヒント：一歩千金。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0704.jpg",
+      "hint" : "ヒント：脱出されないように！",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0705.jpg",
+      "hint" : "ヒント：桂でしとめます。",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0706.jpg",
+      "hint" : "ヒント：香の打ち場所は？",
+      "author" : ""
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0707.jpg",
+      "hint" : "ヒント：馬の守備をはずす。飛の打ち場所に工夫。",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0708.jpg",
+      "hint" : "ヒント：１四玉の時に詰むようにして！",
+      "author" : ""
+    },
+    {
+      "title" : "問題９　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0709.jpg",
+      "hint" : "ヒント：初手に工夫。それから頭金だよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１０　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0710.jpg",
+      "hint" : "ヒント：初手に工夫。それから頭金だよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0711.jpg",
+      "hint" : "ヒント：角と銀の詰み型だよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0712.jpg",
+      "hint" : "ヒント：初手妙手！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0713.jpg",
+      "hint" : "ヒント：３手目の妙手を発見してね。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0714.jpg",
+      "hint" : "ヒント：飛車の守備をはずす工夫。",
+      "author" : "出題　登場２０回　　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0715.jpg",
+      "hint" : "ヒント：銀の打ち場所と開き王手の仕方。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１６　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0716.jpg",
+      "hint" : "ヒント：「玉は下段に落とせ」",
+      "author" : ""
+    },
+    {
+      "title" : "問題１７　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0717.jpg",
+      "hint" : "ヒント：金の打ち場所に注意。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１８　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0718.jpg",
+      "hint" : "ヒント：脱出させないように。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１９　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0719.jpg",
+      "hint" : "ヒント：２手目の変化にも注意。",
+      "author" : "出題　登場２１回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題２０　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0720.jpg",
+      "hint" : "ヒント：手順前後に気をつけて。",
+      "author" : "出題　登場２２回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題２１　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0721.jpg",
+      "hint" : "ヒント：香の使い方に注意。",
+      "author" : "出題　登場１３回　高見　秀夫　様"
+    },
+    {
+      "title" : "問題２２　１１手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0722.jpg",
+      "hint" : "ヒント：素直に攻めて行きます。",
+      "author" : "出題　登場１２回　河内　勲　様"
+    }
+  ]
+}
