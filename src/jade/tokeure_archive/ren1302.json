@@ -1,0 +1,107 @@
+{
+  "title" : "詰将棋練習問題　１～１７題　２０１３年２月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0201.jpg",
+      "hint" : "ヒント：思い切った手です。",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0202.jpg",
+      "hint" : "ヒント：並べ打ちですよ",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0203.jpg",
+      "hint" : "ヒント：並べ打ちですが、打ち場所に注意。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0204.jpg",
+      "hint" : "ヒント：妙手を発見してね。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0205.jpg",
+      "hint" : "ヒント：妙手を発見してね。",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0206.jpg",
+      "hint" : "ヒント：飛の打ち場所に工夫します。",
+      "author" : "出題　登場２回目　佐藤　孝　様"
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0207.jpg",
+      "hint" : "ヒント：飛をいつ動かすか？",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0208.jpg",
+      "hint" : "ヒント：開き王手ネライ。",
+      "author" : ""
+    },
+    {
+      "title" : "問題９　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0209.jpg",
+      "hint" : "ヒント：基本手筋です。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１０　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0210.jpg",
+      "hint" : "ヒント：打歩詰めの打開策。",
+      "author" : "出題　登場６回　中出　慶一　様"
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0211.jpg",
+      "hint" : "ヒント：限定打！",
+      "author" : "出題　登場７回　中出　慶一　様"
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0212.jpg",
+      "hint" : "ヒント：限定打！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0213.jpg",
+      "hint" : "ヒント：逃がさないようにうまく攻めてね！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１４　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0214.jpg",
+      "hint" : "ヒント：打ち歩詰めの打開策。",
+      "author" : "出題　登場８回　中出　慶一　様"
+    },
+    {
+      "title" : "問題１５　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0215.jpg",
+      "hint" : "ヒント：捨てる順序に注意。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１６　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0216.jpg",
+      "hint" : "ヒント：初手と３手目が妙手。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１７　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0217.jpg",
+      "hint" : "ヒント：合い駒は何でしょうか？",
+      "author" : "出題　登場５回　北村　憲一　様"
+    }
+  ]
+}

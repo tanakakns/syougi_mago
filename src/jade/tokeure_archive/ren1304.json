@@ -1,0 +1,125 @@
+{
+  "title" : "詰将棋練習問題　１～２０題　２０１３年４月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0401.jpg",
+      "hint" : "ヒント：ズバリ決め手は？",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0402.jpg",
+      "hint" : "ヒント：詰み型の基本形だよ。",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0403.jpg",
+      "hint" : "ヒント：銀と馬の協力形だよ。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0404.jpg",
+      "hint" : "ヒント：金と銀の協力形だよ。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0405.jpg",
+      "hint" : "ヒント：邪魔ゴマをどう消す？",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0406.jpg",
+      "hint" : "ヒント：５二飛を取られないように！",
+      "author" : "初登場　井上　裕貴　様"
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0407.jpg",
+      "hint" : "ヒント：思い切って捨てる！",
+      "author" : "登場１２回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0408.jpg",
+      "hint" : "ヒント：ズバッと決め手を放つ！",
+      "author" : "登場１３回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題９　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0409.jpg",
+      "hint" : "ヒント：ズバリ妙手は？",
+      "author" : ""
+    },
+    {
+      "title" : "問題１０　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0410.jpg",
+      "hint" : "ヒント：飛車の打ち場所は？",
+      "author" : ""
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0411.jpg",
+      "hint" : "ヒント：初手は金か銀か。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0412.jpg",
+      "hint" : "ヒント：初手は金か銀か。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0413.jpg",
+      "hint" : "ヒント：やさしそうで手ごわい！",
+      "author" : "登場４回　おおた　葉一郎　様"
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0414.jpg",
+      "hint" : "ヒント：迷路に迷い込むと大変！",
+      "author" : "登場５回　おおた　葉一郎　様"
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0415.jpg",
+      "hint" : "ヒント：王様を詰みやすい場所に誘い込む！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１６　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0416.jpg",
+      "hint" : "ヒント：「ついうっかり」をやらないように。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１７　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0417.jpg",
+      "hint" : "ヒント：うまくさばいて下さい。",
+      "author" : "登場６回　おおた　葉一郎　様"
+    },
+    {
+      "title" : "問題１８　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0418.jpg",
+      "hint" : "ヒント：少々変わった味。紛れに入ると苦労。",
+      "author" : "登場７回　おおた　葉一郎　様"
+    },
+    {
+      "title" : "問題１９　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0419.jpg",
+      "hint" : "ヒント：打ち歩詰めに注意。",
+      "author" : "登場８回　おおた　葉一郎　様"
+    },
+    {
+      "title" : "問題２０　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0420.jpg",
+      "hint" : "ヒント：手順前後には十分気をつけて。",
+      "author" : "登場１１回　高見　秀夫　様"
+    }
+  ]
+}

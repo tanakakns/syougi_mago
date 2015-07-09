@@ -1,0 +1,119 @@
+{
+  "title" : "詰将棋練習問題　１～１９題　２０１３年５月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0501.jpg",
+      "hint" : "ヒント：どの駒を動かすか？",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0502.jpg",
+      "hint" : "ヒント：金か銀か？",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0503.jpg",
+      "hint" : "ヒント：金か銀か？",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0504.jpg",
+      "hint" : "ヒント：角を馬にする。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0505.jpg",
+      "hint" : "ヒント：竜の威力！",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0506.jpg",
+      "hint" : "ヒント：大駒は離して打つ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0507.jpg",
+      "hint" : "ヒント：大駒は離して打つ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0508.jpg",
+      "hint" : "ヒント：飛車の打ち場所を作る。",
+      "author" : "初登場　鬼頭　孝生　様"
+    },
+    {
+      "title" : "問題９　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0509.jpg",
+      "hint" : "ヒント：香が主役。",
+      "author" : "登場２回　鬼頭　孝生　様"
+    },
+    {
+      "title" : "問題１０　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0510.jpg",
+      "hint" : "ヒント：どの駒で王手するか？",
+      "author" : "登場１０回　河内　勲　様"
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0511.jpg",
+      "hint" : "ヒント：素直に攻めて！",
+      "author" : "登場６８回　大森　常一　様"
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0512.jpg",
+      "hint" : "三姉妹①　ヒント：逃げ道をふさぐ。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0513.jpg",
+      "hint" : "三姉妹②　ヒント：大駒を気前よく捨てる。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0514.jpg",
+      "hint" : "三姉妹③　ヒント：落とし穴に注意！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0515.jpg",
+      "hint" : "ヒント：持駒が余らないように。",
+      "author" : "登場３回　沖　昌幸　様"
+    },
+    {
+      "title" : "問題１６　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0516.jpg",
+      "hint" : "ヒント：飛車の打ち場所に細心の注意を！",
+      "author" : "登場４回　沖　昌幸　様"
+    },
+    {
+      "title" : "問題１７　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0517.jpg",
+      "hint" : "ヒント：油断大敵ですぞ！",
+      "author" : "登場１５回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１８　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0518.jpg",
+      "hint" : "ヒント：角を決め手に使います。",
+      "author" : "登場８回　柴田　昭彦　様"
+    },
+    {
+      "title" : "問題１９　１１手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0519.jpg",
+      "hint" : "ヒント：うまく竜筋を通します。",
+      "author" : "初登場　山脇　卓弥　様"
+    }
+  ]
+}

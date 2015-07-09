@@ -1,0 +1,125 @@
+{
+  "title" : "詰将棋練習問題　１～２０題　２０１３年１０月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1001.jpg",
+      "hint" : "ヒント：銀をさばく。",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1002.jpg",
+      "hint" : "ヒント：守りの飛を取る筋は失敗。",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1003.jpg",
+      "hint" : "ヒント：玉は下段に。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1004.jpg",
+      "hint" : "ヒント：退路を封鎖してから。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1005.jpg",
+      "hint" : "ヒント：妙手一発。",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1006.jpg",
+      "hint" : "ヒント：竜か馬どっちが大切か？",
+      "author" : ""
+    },
+    {
+      "title" : "問題７　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1007.jpg",
+      "hint" : "ヒント：打歩詰にはどうする？",
+      "author" : "登場１５回　中出　慶一　様"
+    },
+    {
+      "title" : "問題８　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1008.jpg",
+      "hint" : "ヒント：詰上がり基本形！",
+      "author" : "登場１４回　中出　慶一　様"
+    },
+    {
+      "title" : "問題９　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1009.jpg",
+      "hint" : "ヒント：打歩詰にはどうする？",
+      "author" : "登場１５回　中出　慶一　様"
+    },
+    {
+      "title" : "問題１０　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1010.jpg",
+      "hint" : "ヒント：迷路にハマると手ごわい！",
+      "author" : "登場３０回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1011.jpg",
+      "hint" : "ヒント：玉方の飛角の死角をつく！",
+      "author" : "登場３１回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1012.jpg",
+      "hint" : "ヒント：ウマい開き王手を考えます。",
+      "author" : "登場３２回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１３　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1013.jpg",
+      "hint" : "ヒント：打歩詰にはどうする？",
+      "author" : "登場１６回　中出　慶一　様"
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1014.jpg",
+      "hint" : "ヒント：駒の打替え。",
+      "author" : "登場１３回　河内　勲　様"
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1015.jpg",
+      "hint" : "ヒント：妙手は一手だけ！",
+      "author" : "登場３３回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１６　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1016.jpg",
+      "hint" : "ヒント：変化手順では駒を取ります。",
+      "author" : "登場３４回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１７　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1017.jpg",
+      "hint" : "ヒント：詰将棋らしくない手順。",
+      "author" : "登場１４回　河内　勲　様"
+    },
+    {
+      "title" : "問題１８　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1018.jpg",
+      "hint" : "ヒント：金の微妙な動き。",
+      "author" : "登場１５回　河内　勲　様"
+    },
+    {
+      "title" : "問題１９　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1019.jpg",
+      "hint" : "ヒント：合駒に注意。",
+      "author" : "登場１６回　河内　勲　様"
+    },
+    {
+      "title" : "問題２０　１１手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/1020.jpg",
+      "hint" : "ヒント：手順によくよく注意して。",
+      "author" : "登場３５回　藤井　憲郎　様"
+    }
+  ]
+}

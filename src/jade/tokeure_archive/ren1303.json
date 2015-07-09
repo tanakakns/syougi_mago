@@ -1,0 +1,125 @@
+{
+  "title" : "詰将棋練習問題　１～２０題　２０１３年３月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0301.jpg",
+      "hint" : "ヒント：ズバリ決め手は？",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0302.jpg",
+      "hint" : "ヒント：盤上に残す駒は？",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0303.jpg",
+      "hint" : "ヒント：「大駒ははなして打て」",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0304.jpg",
+      "hint" : "ヒント：「大駒ははなして打て」",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0305.jpg",
+      "hint" : "ヒント：飛と銀どっちを残す？",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0306.jpg",
+      "hint" : "ヒント：飛の打ち場所を発見してね！",
+      "author" : ""
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0307.jpg",
+      "hint" : "ヒント：逃げ道をふさぐ妙手を発見してね。",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0308.jpg",
+      "hint" : "ヒント：飛の守りをそらします。",
+      "author" : ""
+    },
+    {
+      "title" : "問題９　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0309.jpg",
+      "hint" : "ヒント：ズバリ妙手は？",
+      "author" : ""
+    },
+    {
+      "title" : "問題１０　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0310.jpg",
+      "hint" : "ヒント：飛車のさばき方は？",
+      "author" : "登場８回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0311.jpg",
+      "hint" : "ヒント：基本形ですから覚えてね。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0312.jpg",
+      "hint" : "ヒント：初手はズバリ妙手です。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0313.jpg",
+      "hint" : "ヒント：やさしそうで手ごわい！",
+      "author" : "登場６５回　大森　常一　様"
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0314.jpg",
+      "hint" : "ヒント：迷路に迷い込むと大変！",
+      "author" : "登場９回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0315.jpg",
+      "hint" : "ヒント：飛と金どっちを先に使うかがポイント！",
+      "author" : "登場１０回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１６　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0316.jpg",
+      "hint" : "ヒント：角をさばいてから。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１７　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0317.jpg",
+      "hint" : "ヒント：飛の特性を生かして。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１８　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0318.jpg",
+      "hint" : "ヒント：合い駒は何でしょうか？",
+      "author" : "登場６回　北村　憲一　様"
+    },
+    {
+      "title" : "問題１９　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0319.jpg",
+      "hint" : "ヒント：駒の打ち替えの筋です。",
+      "author" : "登場１１回　井上　賢一　様"
+    },
+    {
+      "title" : "問題２０　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0320.jpg",
+      "hint" : "ヒント：守りの角をうまく動かす手。",
+      "author" : "登場１０回　高見　秀夫　様"
+    }
+  ]
+}

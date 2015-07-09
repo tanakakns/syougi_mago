@@ -1,0 +1,125 @@
+{
+  "title" : "詰将棋練習問題　１～２０題　２０１３年９月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0901.jpg",
+      "hint" : "ヒント：ノーヒントです。",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0902.jpg",
+      "hint" : "ヒント：ノーヒントです。",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0903.jpg",
+      "hint" : "ヒント：ノーヒントです。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0904.jpg",
+      "hint" : "ヒント：ノーヒントです。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0905.jpg",
+      "hint" : "ヒント：一歩千金。",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0906.jpg",
+      "hint" : "ヒント：一歩千金。",
+      "author" : ""
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0907.jpg",
+      "hint" : "ヒント：一歩千金。",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0908.jpg",
+      "hint" : "ヒント：ズバリ妙手！",
+      "author" : ""
+    },
+    {
+      "title" : "問題９　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0909.jpg",
+      "hint" : "ヒント：１筋から逃げられないように工夫！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１０　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0910.jpg",
+      "hint" : "ヒント：初手の発見がポイント！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0911.jpg",
+      "hint" : "ヒント：角と桂の詰み型だよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0912.jpg",
+      "hint" : "ヒント：飛を犠牲にして馬を生かす！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0913.jpg",
+      "hint" : "ヒント：いらない駒がいます。",
+      "author" : "登場１２回　柴田　昭彦 様"
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0914.jpg",
+      "hint" : "ヒント：桂の活躍を考えます。",
+      "author" : "登場１３回　柴田　昭彦 様"
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0915.jpg",
+      "hint" : "ヒント：意外？な初手。",
+      "author" : "登場１４回　柴田　昭彦 様"
+    },
+    {
+      "title" : "問題１６　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0916.jpg",
+      "hint" : "ヒント：しめくくりは基本パターン！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１７　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0917.jpg",
+      "hint" : "ヒント：５手詰と間違えないで。",
+      "author" : "登場２６回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１８　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0918.jpg",
+      "hint" : "ヒント：桂馬をいつ使うか？",
+      "author" : "登場２７回　　藤井　憲郎 様"
+    },
+    {
+      "title" : "問題１９　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0919.jpg",
+      "hint" : "ヒント：飛を生かします 。",
+      "author" : "登場２８回　　藤井　憲郎 様"
+    },
+    {
+      "title" : "問題２０　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0920.jpg",
+      "hint" : "ヒント：初手に迷うところ。",
+      "author" : "登場９回　中出　慶一　様"
+    }
+  ]
+}

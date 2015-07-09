@@ -1,0 +1,107 @@
+{
+  "title" : "詰将棋練習問題　１～１７題　２０１３年１月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0101.jpg",
+      "hint" : "ヒント：思い切った手です。",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0102.jpg",
+      "hint" : "ヒント：頭金ですよ。",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0103.jpg",
+      "hint" : "ヒント：逃げられないように注意。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0104.jpg",
+      "hint" : "ヒント：逃げられない工夫。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0105.jpg",
+      "hint" : "ヒント：脱出注意！",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0106.jpg",
+      "hint" : "ヒント：飛の打ち場所に工夫します。",
+      "author" : "出題　登場２回目　佐藤　孝　様"
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0107.jpg",
+      "hint" : "ヒント：鬼よりこわい両王手。",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0108.jpg",
+      "hint" : "ヒント：飛の打ち場所に注意。",
+      "author" : ""
+    },
+    {
+      "title" : "問題９　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0109.jpg",
+      "hint" : "ヒント：最後は「頭金」。",
+      "author" : "出題　初登場　おおた葉一郎　様"
+    },
+    {
+      "title" : "問題１０　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0110.jpg",
+      "hint" : "ヒント：桂馬の特性を生かして下さい。",
+      "author" : "出題　登場２回　おおた葉一郎　様"
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0111.jpg",
+      "hint" : "ヒント：飛打ちまでの詰。",
+      "author" : "出題　登場３回　佐藤　孝　様"
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0112.jpg",
+      "hint" : "ヒント：焦点の捨て駒！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0113.jpg",
+      "hint" : "ヒント：悩んだら問題７を復習してね！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１４　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0114.jpg",
+      "hint" : "ヒント：初手で形を決めるのがポイント。",
+      "author" : "出題　登場４回　佐藤　孝　様"
+    },
+    {
+      "title" : "問題１５　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0115.jpg",
+      "hint" : "ヒント：１一玉に注意して攻める。",
+      "author" : "出題　登場６３回　大森　常一　様"
+    },
+    {
+      "title" : "問題１６　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0116.jpg",
+      "hint" : "ヒント：３手目は逃げられそうで打ちにくい手。",
+      "author" : "出題　登場３回　おおた葉一郎　様"
+    },
+    {
+      "title" : "問題１７　１１手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0117.jpg",
+      "hint" : "ヒント：詰めにくい味がある。",
+      "author" : "出題　登場９回　井上　賢一　様"
+    }
+  ]
+}

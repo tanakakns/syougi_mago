@@ -1,0 +1,131 @@
+{
+  "title" : "詰将棋練習問題　１～２１題　２０１３年８月",
+  "ren" : [
+    {
+      "title" : "問題１　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0801.jpg",
+      "hint" : "ヒント：ノーヒントです。",
+      "author" : ""
+      },
+    {
+      "title" : "問題２　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0802.jpg",
+      "hint" : "ヒント：守り飛車の裏をかく。",
+      "author" : ""
+    },
+    {
+      "title" : "問題３　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0803.jpg",
+      "hint" : "ヒント：角の活用。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0804.jpg",
+      "hint" : "ヒント：桂馬の打ち場所を作ります！",
+      "author" : ""
+    },
+    {
+      "title" : "問題５　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0805.jpg",
+      "hint" : "ヒント：角はいない方がいい。",
+      "author" : ""
+    },
+    {
+      "title" : "問題６　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0806.jpg",
+      "hint" : "ヒント：前問と同じく角はいない方がいい。",
+      "author" : ""
+    },
+    {
+      "title" : "問題７　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0807.jpg",
+      "hint" : "ヒント：１五銀打と力まかせに攻めては失敗します。",
+      "author" : ""
+    },
+    {
+      "title" : "問題８　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0808.jpg",
+      "hint" : "ヒント：３手目が妙手！",
+      "author" : ""
+    },
+    {
+      "title" : "問題９　３手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0809.jpg",
+      "hint" : "ヒント：前問と同じく３手目に工夫！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１０　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0810.jpg",
+      "hint" : "ヒント：ズバリ決めて下さい！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１１　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0811.jpg",
+      "hint" : "ヒント：角と銀の詰み型だよ！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１２　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0812.jpg",
+      "hint" : "ヒント：角を犠牲にして竜を生かす！",
+      "author" : ""
+    },
+    {
+      "title" : "問題１３　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0813.jpg",
+      "hint" : "ヒント：一呼吸置いて攻めます。",
+      "author" : "登場２３回　　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１４　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0814.jpg",
+      "hint" : "ヒント：２枚飛車の威力で。",
+      "author" : "登場８回　沖　昌幸　様"
+    },
+    {
+      "title" : "問題１５　５手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0815.jpg",
+      "hint" : "ヒント：飛車は取られても……。",
+      "author" : "登場６９回　大森　常一　様"
+    },
+    {
+      "title" : "問題１６　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0816.jpg",
+      "hint" : "ヒント：手順前後に注意！",
+      "author" : "登場２４回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１７　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0817.jpg",
+      "hint" : "ヒント：途中で邪魔駒ができます。",
+      "author" : "登場２５回　藤井　憲郎　様"
+    },
+    {
+      "title" : "問題１８　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0818.jpg",
+      "hint" : "ヒント：桂馬の活用。",
+      "author" : ""
+    },
+    {
+      "title" : "問題１９　７手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0819.jpg",
+      "hint" : "ヒント：守りの竜を無力化します。",
+      "author" : ""
+    },
+    {
+      "title" : "問題２０　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0820.jpg",
+      "hint" : "ヒント：初手に迷うところ。",
+      "author" : ""
+    },
+    {
+      "title" : "問題２１　９手詰",
+      "image" : "assets/img/tokeure/archive/ren/13/0821.jpg",
+      "hint" : "ヒント：守りの竜をほんろうします。",
+      "author" : ""
+    }
+  ]
+}
