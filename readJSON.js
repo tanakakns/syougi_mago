@@ -7,9 +7,12 @@ module.exports = function(dest, src) {
     } else {
       num_str = "0" + i;
     }
-    if(dest.match(num_str)){
+    if(dest.match("ren13" + num_str)){
       data_file = "./src/jade/tokeure_archive/ren13" + num_str + ".json";
-    }    
+    }
+    else if(dest.match("TK13" + num_str)){
+      data_file = "./src/jade/tokeure_archive/TK13" + num_str + ".json";
+    }
   }
   if(data_file != null){
     try {

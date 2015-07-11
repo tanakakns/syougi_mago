@@ -1,24 +1,13 @@
 center
   div(style="background-color: Teal;")
     h3(style="color: white;") #{title}
-  table
+  div.row
     for val, index in ren
-      if (index %2 == 0) 
-        tr
-          td
-            h4 #{val.title}
-            img(src="#{val.image}" align="bottom" width="275" height="251" border="0")
-            p
-              | #{val.hint}
-              br
-              | #{val.author}
-              br
-          td
-            if (ren.length > index + 1)
-              h4 #{ren[index+1].title}
-              img(src="#{ren[index+1].image}" align="bottom" width="275" height="251" border="0")
-              p
-                | #{ren[index+1].hint}
-                br
-                | #{ren[index+1].author}
-                br
+      div.col-xs-12.col-sm-6
+        h4 #{val.title}
+        img(src="#{val.image}" align="bottom" width="275" height="251" border="0")
+        p
+          | #{val.hint}
+          br
+          | #{val.author}
+          br
