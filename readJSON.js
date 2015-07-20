@@ -13,6 +13,15 @@ module.exports = function(dest, src) {
     else if(dest.match("TK13" + num_str)){
       data_file = "./src/jade/tokeure_archive/TK13" + num_str + ".json";
     }
+    else if(dest.match("BK13" + num_str + "a")){
+      data_file = "./src/jade/tokeure_archive/BK13" + num_str + "a.json";
+    }
+    else if(dest.match("BK13" + num_str + "b")){
+      data_file = "./src/jade/tokeure_archive/BK13" + num_str + "b.json";
+    }
+    else if(dest.match("BK13" + num_str + "c")){
+      data_file = "./src/jade/tokeure_archive/BK13" + num_str + "c.json";
+    }
   }
   if(data_file != null){
     try {

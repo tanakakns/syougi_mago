@@ -1,0 +1,38 @@
+{
+  "title" : "投稿作問題　１０月号解答・感想",
+  "TK" : [
+    {
+      "title" : "問題１",
+      "image" : "assets/img/tokeure/archive/TK/13/1001.jpg",
+      "author" : "登場２回　松尾　優孝　様",
+      "sunpyou" : [
+      ],
+      "answer" : "解答など１２月号に掲載します。"
+      },
+    {
+      "title" : "問題２",
+      "image" : "assets/img/tokeure/archive/TK/13/1002.jpg",
+      "author" : "登場７３回　大森　常一　様",
+      "sunpyou" : [
+      ],
+      "answer" : "解答など１２月号に掲載します。"
+    },
+    {
+      "title" : "問題３",
+      "image" : "assets/img/tokeure/archive/TK/13/1003.jpg",
+      "author" : "登場７４回　大森　常一　様",
+      "sunpyou" : [
+      ],
+      "answer" : "解答など１２月号に掲載します。"
+    },
+    {
+      "title" : "問題４",
+      "image" : "assets/img/tokeure/archive/TK/13/1004.jpg",
+      "author" : "登場９回　沖　昌幸　様",
+      "sunpyou" : [
+      ],
+      "answer" : "解答など１２月号に掲載します。"
+    }
+  ],
+  "summary_flag" : false
+}

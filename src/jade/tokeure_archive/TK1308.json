@@ -1,0 +1,42 @@
+{
+  "title" : "投稿作問題　８月号解答・感想",
+  "TK" : [
+    {
+      "title" : "問題１",
+      "image" : "assets/img/tokeure/archive/TK/13/0801.jpg",
+      "author" : "初登場　南　良文　様",
+      "sunpyou" : [
+        {"name" : "中島　健朗", "comment" : "５手目▲同飛成で５手必死と思いましたが、詰みが見つかりました。"}
+      ],
+      "answer" : "１二飛、２一玉、１三桂、同金、３三桂、同角、３一歩成、同玉、３二飛成まで９手詰め。"
+      },
+    {
+      "title" : "問題２",
+      "image" : "assets/img/tokeure/archive/TK/13/0802.jpg",
+      "author" : "編集部",
+      "sunpyou" : [
+        {"name" : "坂野　均", "comment" : "３四香は２手目３四歩と突かせないための配置。"}
+      ],
+      "answer" : "２四桂まで1手必至。"
+    },
+    {
+      "title" : "問題３",
+      "image" : "assets/img/tokeure/archive/TK/13/0803.jpg",
+      "author" : "編集部",
+      "sunpyou" : [
+        {"name" : "占魚亭", "comment" : "３四の地点が塞がっていないため、脱出できるわけですね。"}
+      ],
+      "answer" : "２四桂に３四歩で不必至。"
+    },
+    {
+      "title" : "問題４",
+      "image" : "assets/img/tokeure/archive/TK/13/0804.jpg",
+      "author" : "編集部",
+      "sunpyou" : [
+        {"name" : "門田和雄", "comment" : "桂馬という駒は使いづらい駒でもあるけど、便利なときもあるんです。"}
+      ],
+      "answer" : "２四桂まで1手必至。"
+    }
+  ],
+  "summary_flag" : false
+}

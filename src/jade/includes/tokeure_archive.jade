@@ -2,115 +2,119 @@ mixin archive_list(year)
   - var input=year
   center
     h3(style="color: #0000ff") 20#{input}年度　各アーカイブ
-    table
+    table.table
       tr
-        td
+        td(rowspan="2")
           p= '懸賞問題'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}01.html')")= '　１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}01.html')")!= '&nbsp;1月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}02.html')")= '　２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}02.html')")!= '&nbsp;2月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}03.html')")= '　３月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}03.html')")!= '&nbsp;3月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}04.html')")= '　４月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}04.html')")!= '&nbsp;4月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}05.html')")= '　５月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}05.html')")!= '&nbsp;5月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}06.html')")= '　６月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}06.html')")!= '&nbsp;6月'
+      tr  
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}07.html')")= '　７月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}07.html')")!= '&nbsp;7月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}08.html')")= '　８月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}08.html')")!= '&nbsp;8月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}09.html')")= '　９月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}09.html')")!= '&nbsp;9月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}10.html')")= '　10月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}10.html')")= '10月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}11.html')")= '　１１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}11.html')")= '11月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}12.html')")= '　１２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ken#{input}12.html')")= '12月'
       tr
-        td
+        td(rowspan="2")
           p= '詰将棋練習問題'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}01.html')")= '　１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}01.html')")!= '&nbsp;1月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}02.html')")= '　２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}02.html')")!= '&nbsp;2月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}03.html')")= '　３月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}03.html')")!= '&nbsp;3月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}04.html')")= '　４月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}04.html')")!= '&nbsp;4月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}05.html')")= '　５月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}05.html')")!= '&nbsp;5月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}06.html')")= '　６月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}06.html')")!= '&nbsp;6月'
+      tr  
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}07.html')")= '　７月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}07.html')")!= '&nbsp;7月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}08.html')")= '　８月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}08.html')")!= '&nbsp;8月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}09.html')")= '　９月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}09.html')")!= '&nbsp;9月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}10.html')")= '　10月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}10.html')")= '10月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}11.html')")= '　１１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}11.html')")= '11月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}12.html')")= '　1２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/ren#{input}12.html')")= '12月'
       tr
-        td
+        td(rowspan="2")
           p= '詰か必至か不必至か'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}01.html')")= '　１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}01.html')")!= '&nbsp;1月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}02.html')")= '　２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}02.html')")!= '&nbsp;2月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}03.html')")= '　３月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}03.html')")!= '&nbsp;3月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}04.html')")= '　４月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}04.html')")!= '&nbsp;4月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}05.html')")= '　５月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}05.html')")!= '&nbsp;5月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}06.html')")= '　６月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}06.html')")!= '&nbsp;6月'
+      tr  
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}07.html')")= '　７月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}07.html')")!= '&nbsp;7月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}08.html')")= '　８月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}08.html')")!= '&nbsp;8月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}09.html')")= '　９月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}09.html')")!= '&nbsp;9月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}10.html')")= '　10月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}10.html')")= '10月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}11.html')")= '　１１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}11.html')")= '11月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}12.html')")= '　１２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/TK#{input}12.html')")= '12月'
       tr
-        td
+        td(rowspan="2")
           p= 'ビックリドッキリ１手詰'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}01a.html')")= '　１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}01a.html')")!= '&nbsp;1月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}02a.html')")= '　２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}02a.html')")!= '&nbsp;2月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}03a.html')")= '　３月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}03a.html')")!= '&nbsp;3月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}04a.html')")= '　４月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}04a.html')")!= '&nbsp;4月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}05a.html')")= '　５月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}05a.html')")!= '&nbsp;5月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}06a.html')")= '　６月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}06a.html')")!= '&nbsp;6月'
+      tr  
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}07a.html')")= '　７月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}07a.html')")!= '&nbsp;7月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}08a.html')")= '　８月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}08a.html')")!= '&nbsp;8月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}09a.html')")= '　９月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}09a.html')")!= '&nbsp;9月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}10a.html')")= '　10月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}10a.html')")= '10月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}11a.html')")= '　１１月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}11a.html')")= '11月'
         td
-          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}12a.html')")= '　１２月'
+          a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{input}12a.html')")= '12月'
   br
   div#display
   script

@@ -1,0 +1,42 @@
+{
+  "title" : "ビックリドッキリ１手詰　難易度Ａの問題",
+  "date" : "1301",
+  "BK" : [
+    {
+      "title" : "問題１",
+      "image" : "assets/img/tokeure/archive/BK/13/A0101.jpg",
+      "hint" : "ヒント：どっちで王手かな？",
+      "author" : ""
+    },
+    {
+      "title" : "問題２",
+      "image" : "assets/img/tokeure/archive/BK/13/A0102.jpg",
+      "hint" : "ヒント：どの駒で王手かな？",
+      "author" : ""
+    },
+    {
+      "title" : "問題３",
+      "image" : "assets/img/tokeure/archive/BK/13/A0103.jpg",
+      "hint" : "ヒント：基本形だね。",
+      "author" : ""
+    },
+    {
+      "title" : "問題４",
+      "image" : "assets/img/tokeure/archive/BK/13/A0104.jpg",
+      "hint" : "ヒント：これも基本形。",
+      "author" : ""
+    },
+    {
+      "title" : "問題５",
+      "image" : "assets/img/tokeure/archive/BK/13/A0105.jpg",
+      "hint" : "ヒント：どっちで王手かな？",
+      "author" : ""
+    },
+    {
+      "title" : "問題６",
+      "image" : "assets/img/tokeure/archive/BK/13/A0106.jpg",
+      "hint" : "ヒント：角をどこから打つ？",
+      "author" : "出題　初登場　佐藤　孝　様"
+    }
+  ]
+}

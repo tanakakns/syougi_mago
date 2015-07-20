@@ -1,0 +1,42 @@
+{
+  "title" : "投稿作問題　９月号解答・感想",
+  "TK" : [
+    {
+      "title" : "問題１",
+      "image" : "assets/img/tokeure/archive/TK/13/0901.jpg",
+      "author" : "登場７１回　大森　常一　様",
+      "sunpyou" : [
+        {"name" : "藤田　卓志", "comment" : "これらの問題は、実戦に近い感覚なので良い勉強になります。"}
+      ],
+      "answer" : "２三桂成まで１手必至。"
+      },
+    {
+      "title" : "問題２",
+      "image" : "assets/img/tokeure/archive/TK/13/0902.jpg",
+      "author" : "登場７２回　大森　常一　様",
+      "sunpyou" : [
+        {"name" : "占魚亭", "comment" : "上部脱出を防ぐ。"}
+      ],
+      "answer" : "２四銀不成まで1手必至。"
+    },
+    {
+      "title" : "問題３",
+      "image" : "assets/img/tokeure/archive/TK/13/0903.jpg",
+      "author" : "編集部",
+      "sunpyou" : [
+        {"name" : "大沼　貴", "comment" : "感覚的には持ち駒が飛車より角の方が寄せがありそうです。"}
+      ],
+      "answer" : "３三飛まで１手必至。"
+    },
+    {
+      "title" : "問題４",
+      "image" : "assets/img/tokeure/archive/TK/13/0904.jpg",
+      "author" : "編集部",
+      "sunpyou" : [
+        {"name" : "野中　正義", "comment" : "かなり考えましたが、不必至で。"}
+      ],
+      "answer" : "不必至。３三角には２三桂で手が続きません。"
+    }
+  ],
+  "summary_flag" : false
+}

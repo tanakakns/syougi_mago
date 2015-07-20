@@ -1,0 +1,20 @@
+center
+  div.row
+    div.col-xs-12.col-sm-4
+      a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{date}a.html')")= '難易度Aの問題'
+    div.col-xs-12.col-sm-4
+      a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{date}b.html')")= '難易度Bの問題'
+    div.col-xs-12.col-sm-4
+      a(target="_blank" onClick="loadArchieve('./tokeure_archive/BK#{date}c.html')")= '難易度Cの問題'
+  div(style="background-color: Blue;")
+    h3(style="color: white;") #{title}
+  div.row
+    for val, index in BK
+      div.col-xs-12.col-sm-6
+        h4 #{val.title}
+        img(src="#{val.image}" align="bottom" width="275" height="251" border="0")
+        p.text-left
+          | #{val.hint}
+          br
+          | #{val.author}
+          br

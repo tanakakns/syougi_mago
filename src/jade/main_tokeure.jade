@@ -1,41 +1,43 @@
 extends ./templates/template.jade
 
 block content
-  //-  ここからは画像と説明文のテーブル
-  p(style="line-height:120%; margin:0 0 0 10px; font-size:11pt;" align="left")= '普及用詰将棋小冊子（２７年４月配本開始）'
-  p(style="line-height:120%; margin:0 ; font-size:18pt;" align="center")
-    b= '新・「解けてうれしい詰将棋」のご案内'
+  div(style="background-color : white")
+    p(style="line-height:120%; margin:0 0 0 10px; font-size:11pt;" align="left")= '普及用詰将棋小冊子（２７年４月配本開始）'
+    p(style="line-height:120%; margin:0 ; font-size:18pt;" align="center")
+      b= '新・「解けてうれしい詰将棋」のご案内'
+    br
+    p(style="line-height:120%; margin:0 0 0 10px; font-size:11pt;" align="left")
+      | 平成２３年１０月、中高年世代が自分の孫のみならず、広く孫世代に将棋を伝えて行くことを目的として「将棋を孫に伝える会」（Ｆｏｒ　ｔｈｅ　ｎｅｘｔ　ｇｅｎｅｒａｔｉｏｎ）を発足しました。
+      | 併せて、「将棋」とともに「詰将棋」を普及推進するために小冊子「解けてうれしい詰将棋」を３年間毎月発行して参りました。
+      br
+      | 今回、創刊４年目に大幅改定いたしまして　『季刊＋増刊号年４回』　の合計年８回発行にて再スタートいたします。　（季刊号第１号は夏号５月末発送予定）
+      br
+      | 初級詰（３手～７手）、中級詰（５手～１５手）とともに　『棋力を鍛えろ』　コーナーではやさしい必至を出題します。
+      | また詰将棋については過去の数十万題のデータベースと照合確認しておりますので全問オリジナル出題となっています。
   br
-  p(style="line-height:120%; margin:0 0 0 10px; font-size:11pt;" align="left")
-    | 平成２３年１０月、中高年世代が自分の孫のみならず、広く孫世代に将棋を伝えて行くことを目的として「将棋を孫に伝える会」（Ｆｏｒ　ｔｈｅ　ｎｅｘｔ　ｇｅｎｅｒａｔｉｏｎ）を発足しました。
-    | 併せて、「将棋」とともに「詰将棋」を普及推進するために小冊子「解けてうれしい詰将棋」を３年間毎月発行して参りました。
-    br
-    | 今回、創刊４年目に大幅改定いたしまして　『季刊＋増刊号年４回』　の合計年８回発行にて再スタートいたします。　（季刊号第１号は夏号５月末発送予定）
-    br
-    | 初級詰（３手～７手）、中級詰（５手～１５手）とともに　『棋力を鍛えろ』　コーナーではやさしい必至を出題します。
-    | また詰将棋については過去の数十万題のデータベースと照合確認しておりますので全問オリジナル出題となっています。
-  table
-    tr
-      td
-        a(href="/syougi_mago/toke/Wheel01.html")
-          img(src="http://www.geocities.jp/syougi_mago/gazou/PAP_0010.JPG" align="left" width="285" height="171" border="0" style="margin:5px 10px 0px 0px;")
-      td
-        p(style="line-height:120%; margin:0 0 0 10px; font-size:11pt;" align="left")
-          | その他（改訂内容、会員サービスなど）
-          br
-          | （１）増頁（４８頁⇒６４頁）
-          br
-          | （２）増刊号内容は予めお知らせします。
-          br
-          | （３）創作詰将棋、必至出題を募集します。
-          br
-          | （４）ﾒﾙﾏｶﾞ「解けうれ通信」を配信します。
-          br
-          | （５）会員の皆様が本著の問題をコピーして子供達に配布することを了承します。
-          br
-          | （６）将棋ｲﾍﾞﾝﾄﾁﾗｼ用に詰将棋出題します。
-  p(style="line-height:120%; margin:0 0 0 10px; font-size:11pt;" align="left")= 'なお、増刊号第１号は　『上田雅洋詰将棋練習問題集』　にてスタートします。（27年４月末発送）'
-  table(border="1")
+  div.row
+    div.col-xs-12.col-sm-6
+      a(href="/syougi_mago/toke/Wheel01.html")
+        img.img-responsive(src="assets/img/tokeure/tokeure/PAP_0010.JPG")
+    div.col-xs-12.col-sm-6(style="background-color : white")
+      p.text-left
+        | その他（改訂内容、会員サービスなど）
+        br
+        | （１）増頁（４８頁⇒６４頁）
+        br
+        | （２）増刊号内容は予めお知らせします。
+        br
+        | （３）創作詰将棋、必至出題を募集します。
+        br
+        | （４）ﾒﾙﾏｶﾞ「解けうれ通信」を配信します。
+        br
+        | （５）会員の皆様が本著の問題をコピーして子供達に配布することを了承します。
+        br
+        | （６）将棋ｲﾍﾞﾝﾄﾁﾗｼ用に詰将棋出題します。
+  br
+  p.text-left(style="background-color : white")= 'なお、増刊号第１号は　『上田雅洋詰将棋練習問題集』　にてスタートします。（27年４月末発送）'
+  br
+  table.table(style="background-color : white")
     tr
       td= '(国内送料込)'
       td= '新料金表'
@@ -71,18 +73,17 @@ block content
       td= '100'
       td= '100'
       td= '（例）５０冊×４回×１００＋年会費千円＝２１０００円'
-  table
-    tr
-      td
-        img(src="http://www.geocities.jp/syougi_mago/toke/img/tokeureXX.jpg")
-      td= ' '
-      td
-        p(style="line-height:120%; margin:0; font-size:11pt;" align="left")
-          | 〒520-0025 滋賀県大津市皇子が丘2-4-10-505
-          br
-          | 「将棋を孫に伝える会」　三宅　英治
-          br
-          | 携帯: 090-6678-3012　 Mail: eij6678@yahoomail.co.jp
-          br
-          | HP: http://www.geocities.jp/syougi_mago/
-  p= '賛助会員募集…継続的な発行のために将棋関係（将棋関係以外もOK）の広告掲載を募集いたしております。'
+  div.row
+    div.col-xs-5.col-sm-5
+      img.img-responsive(src="assets/img/tokeure/tokeure/tokeureXX.jpg")
+    div.col-xs-7.col-sm-7(style="background-color : white")
+      p.text-left
+        | 〒520-0025 滋賀県大津市皇子が丘2-4-10-505
+        br
+        | 「将棋を孫に伝える会」　三宅　英治
+        br
+        | 携帯: 090-6678-3012　 Mail: eij6678@yahoomail.co.jp
+        br
+        | HP: http://www.geocities.jp/syougi_mago/
+  br
+  p(style="background-color : white")= '賛助会員募集…継続的な発行のために将棋関係（将棋関係以外もOK）の広告掲載を募集いたしております。'

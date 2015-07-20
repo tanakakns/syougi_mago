@@ -1,0 +1,42 @@
+{
+  "title" : "投稿作問題　７月号解答・感想",
+  "TK" : [
+    {
+      "title" : "問題１",
+      "image" : "assets/img/tokeure/archive/TK/13/0701.jpg",
+      "author" : "登場７回　沖　昌幸　様",
+      "sunpyou" : [
+        {"name" : "占魚亭", "comment" : "穴に追い込む。"}
+      ],
+      "answer" : "２三馬　１一玉　３三馬　２二合　２三桂不成まで５手詰め。"
+      },
+    {
+      "title" : "問題２",
+      "image" : "assets/img/tokeure/archive/TK/13/0702.jpg",
+      "author" : "編集部",
+      "sunpyou" : [
+        {"name" : "門田　和雄", "comment" : "これは有名な必至パターン。"}
+      ],
+      "answer" : "３二銀不成まで1手必至。"
+    },
+    {
+      "title" : "問題３",
+      "image" : "assets/img/tokeure/archive/TK/13/0703.jpg",
+      "author" : "編集部",
+      "sunpyou" : [
+        {"name" : "玉木　英幸", "comment" : "飛車が２筋を防いでくれますね。"}
+      ],
+      "answer" : "不必至。"
+    },
+    {
+      "title" : "問題４",
+      "image" : "assets/img/tokeure/archive/TK/13/0704.jpg",
+      "author" : "登場１１回　柴田　昭彦　様",
+      "sunpyou" : [
+        {"name" : "キリギリス", "comment" : "初手が打ちにくい金でした。"}
+      ],
+      "answer" : "３四金　同と　２二角成　同玉　２三金　３一玉　５一竜　同馬　３二金打まで９手詰。"
+    }
+  ],
+  "summary_flag" : false
+}

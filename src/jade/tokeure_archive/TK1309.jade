@@ -1,0 +1,66 @@
+center
+  div(style="background-color: Blue;")
+    h3(style="color: white;") #{title}
+  for val, index in TK
+    if index%2==0
+      div.row
+        div.col-xs-12.col-sm-6
+          h4 #{val.title}
+          img(src="#{val.image}" align="bottom" width="275" height="251" border="0")
+          p.text-left
+            | 【作者】
+            | #{val.author}
+            br
+            | 【解答者寸評（敬称略）】
+            br
+            for val2, index2 in val.sunpyou
+              | ・#{val2.name}
+              br
+              | 　#{val2.comment}
+              br
+            span.word(onmouseover="InfoOn(ht#{index})" onmouseout="InfoOff(ht#{index})")= '【解答】'
+          div.info(id="ht#{index}", style="visibility: hidden;")
+            p #{val.answer}
+            br
+        if index+1 < TK.length
+          div.col-xs-12.col-sm-6
+            h4 #{TK[index+1].title}
+            img(src="#{val.image}" align="bottom" width="275" height="251" border="0")
+            p.text-left
+              | 【作者】
+              | #{TK[index+1].author}
+              br
+              | 【解答者寸評（敬称略）】
+              br
+              for val2, index2 in TK[index+1].sunpyou
+                | ・#{val2.name}
+                br
+                | 　#{val2.comment}
+                br
+              span.word(onmouseover="InfoOn(ht#{index+1})" onmouseout="InfoOff(ht#{index+1})")= '【解答】'
+            div.info(id="ht#{index+1}", style="visibility: hidden;")
+              p #{TK[index+1].answer}
+              br
+        if summary_flag && index+1==TK.length
+          div.col-xs-12.col-sm-6(style="background-color : blue")
+            p(style="color : white") #{summary.title}
+            div.row
+              for val, index in summary.seiseki
+                div.col-xs-5.col-sm-5
+                  p.text-right(style="color : white")
+                    | #{val.score}
+                    | 　
+                div.col-xs-7.col-sm-7
+                  p.text-left(style="color : white") #{val.name}
+            p(style="color : white")= "※お名前の前の番号は連続正解月数。"
+script(language="JavaScript")
+  | function InfoOn(obj){
+  |   obj.style.visibility =  "visible";
+  |   x = event.clientX+document.body.scrollLeft+10;
+  |   y = event.clientY+document.body.scrollTop+10;
+  |   obj.style.left = x;
+  |   obj.style.top = y;
+  | }
+  | function InfoOff(obj){
+  |   obj.style.visibility = "hidden";
+  | }

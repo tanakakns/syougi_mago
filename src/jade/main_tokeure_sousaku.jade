@@ -1,64 +1,53 @@
 extends ./templates/template.jade
 
 block content
-  table(cellspacing="0" width="700" cellpadding="0" style="border-color:rgb(89,88,87);")
-    tr
-      td(width="50" valign="top")= ' '
-      td(width="630" align="left" valign="top" style="padding-top:10px; padding-right:20px; padding-bottom:10px;")
+  div(style="background-color : white")
+    center
+      h2= '創作問題ご提供のお願い'
+      br
+      p.text-left
+        | 拝啓　平素は格別のご高配を賜り、厚く御礼申し上げます。詰将棋小冊子「解けてうれしい詰将棋」は将棋・詰将棋の普及を目的として毎月発行してまいります。
         br
-        p(align="center" style="line-height:120%; margin-top:0; margin-bottom:0;")
-          b
-            font(size="3")= '創作問題ご提供のお願い'
+        | さて、本冊子のもう一つの使命は、創作される皆様の発表の場の拡大であります。
         br
-        p(style="line-height:120%; margin-top:0; margin-bottom:0;")
-          span(style="font-size:11pt;")
-            | 拝啓　平素は格別のご高配を賜り、厚く御礼申し上げます。詰将棋小冊子「解けてうれしい詰将棋」は将棋・詰将棋の普及を目的として毎月発行してまいります。
-            | さて、本冊子のもう一つの使命は、創作される皆様の発表の場の拡大であります。
-            | つきましては、下記内容にて未発表の創作問題のご投稿をお待ちしております。
-        p(align="right" style="line-height:120%; margin-top:0; margin-bottom:0;")
-          span(style="font-size:11pt;")= '敬具'
-        br
-        p(align="center" style="line-height:120%; margin-top:0; margin-bottom:0;")
-          span(style="font-size:11pt;")= '記'
-        br
-        p(style="line-height:120%; margin-top:0; margin-bottom:0;")
-          span(style="font-size:11pt;")
-            | 　　　１．難易度は、やさしすぎるかな？ぐらいでＯＫです。
-            br
-            | 　　　２．９手～１１手詰程度。
-            br
-            | 　　　３．なるべく「 ５&times;５ 」以内。
-            br
-            | 　　　４．合い駒問題はＮＧ。
-            br
-            | 　　　５．できましたら、盤面１０枚まで、持駒３枚まで。
-            br
-            | 　　　その他
-            br
-            | 　　　　①初心者啓発のための３～７手詰問題
-            br
-            | 　　　　②やさしい１手、３手の必至問題や不必至問題
-            br
-            | 　　　　の創作問題のご投稿もよろしくお願いします。
-            br
-            | 
-            br
-            | 尚、本冊子とともに、下記「解けてうれしい詰将棋」のＨＰにも掲載いたします。
-            br
-            br
-        p(align="right" style="line-height:120%; margin-top:0; margin-bottom:0;")
-          span(style="font-size:11pt;")
-            | 以上
-            br
-            | 将棋を孫に伝える会
-            br
-            | 事務局　三宅　英治
-            br
-            br
-        p(style="line-height:120%; margin-top:0; margin-bottom:0;")
-          span(style="font-size:11pt;")
-            | &nbsp;　　　【お問い合わせ先】
-            | メールアドレス　eiji6678@hotmail.co.jp　三宅英治　まで。
-            br
-            | 　　　 【掲載ホームページ】
-            a.link(href="http://www.geocities.jp/kaitou6678/" target="_blank")= '解けてうれしい詰将棋'
+        | つきましては、下記内容にて未発表の創作問題のご投稿をお待ちしております。
+      p.text-right= '敬具'
+    br
+    h3.text-center= '記'
+    p.text-left
+      | 　　　１．難易度は、やさしすぎるかな？ぐらいでＯＫです。
+      br
+      | 　　　２．９手～１１手詰程度。
+      br
+      | 　　　３．なるべく「 ５&times;５ 」以内。
+      br
+      | 　　　４．合い駒問題はＮＧ。
+      br
+      | 　　　５．できましたら、盤面１０枚まで、持駒３枚まで。
+      br
+      | 　　　その他
+      br
+      | 　　　　①初心者啓発のための３～７手詰問題
+      br
+      | 　　　　②やさしい１手、３手の必至問題や不必至問題
+      br
+      | 　　　　の創作問題のご投稿もよろしくお願いします。
+      br
+      | 
+      br
+    p.text-center= '尚、本冊子とともに、下記「解けてうれしい詰将棋」のＨＰにも掲載いたします。'
+    br
+    p.text-right
+      | 以上
+      br
+      | 将棋を孫に伝える会
+      br
+      | 事務局　三宅　英治
+      br
+    p
+      | 【お問い合わせ先】
+      a(href="mailto:eiji6678@hotmail.co.jp")=　'三宅英治'
+      |　まで。
+      br
+      | 【掲載ホームページ】
+      a(href="http://www.geocities.jp/kaitou6678/")= '解けてうれしい詰将棋'
